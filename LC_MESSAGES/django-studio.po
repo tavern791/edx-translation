@@ -82,7 +82,7 @@ msgstr "发生了一般性索引错误"
 
 #: cms/djangoapps/contentstore/courseware_index.py
 msgid "(Unnamed)"
-msgstr ""
+msgstr "(未命名的)"
 
 #: cms/djangoapps/contentstore/git_export_utils.py
 msgid ""
@@ -150,7 +150,7 @@ msgstr ""
 
 #: cms/djangoapps/contentstore/utils.py
 msgid "Deleted group"
-msgstr ""
+msgstr "刪除的群组"
 
 #: cms/djangoapps/contentstore/views/assets.py
 msgid ""
@@ -166,7 +166,7 @@ msgstr "上传完成"
 
 #: cms/djangoapps/contentstore/views/certificates.py
 msgid "must have name of the certificate"
-msgstr ""
+msgstr "务必含设定证书的名称"
 
 #: cms/djangoapps/contentstore/views/certificates.py
 msgid "Certificate dict {0} missing value key '{1}'"
@@ -175,11 +175,11 @@ msgstr ""
 #: cms/djangoapps/contentstore/views/certificates.py
 #: cms/djangoapps/contentstore/views/certificates.py
 msgid "PermissionDenied: Failed in authenticating {user}"
-msgstr ""
+msgstr "没有权限: 认证失败 {user}"
 
 #: cms/djangoapps/contentstore/views/component.py
 msgid "HTML"
-msgstr ""
+msgstr "HTML"
 
 #: cms/djangoapps/contentstore/views/component.py
 msgid "Video"
@@ -230,7 +230,7 @@ msgid ""
 "You must link this course to an organization in order to continue. "
 "Organization you selected does not exist in the system, you will need to add"
 " it to the system"
-msgstr ""
+msgstr "你为了继续必须将此课程联结到一个机构。你选择了不存在于系統中的机构，你需要将此机构新增到系统"
 
 #: cms/djangoapps/contentstore/views/course.py
 msgid "Invalid prerequisite course key"
@@ -238,11 +238,11 @@ msgstr "先修课程标识无效"
 
 #: cms/djangoapps/contentstore/views/course.py
 msgid "An error occurred while trying to save your tabs"
-msgstr ""
+msgstr "储存标签时发生错误。"
 
 #: cms/djangoapps/contentstore/views/course.py
 msgid "Tabs Exception"
-msgstr ""
+msgstr "标签异常"
 
 #: cms/djangoapps/contentstore/views/course.py
 msgid "This group configuration is in use and cannot be deleted."
@@ -274,15 +274,15 @@ msgstr "空白页"
 
 #: cms/djangoapps/contentstore/views/import_export.py
 msgid "We only support uploading a .tar.gz file."
-msgstr ""
+msgstr "我们仅支持上传 .tar.gz 格式的档案。"
 
 #: cms/djangoapps/contentstore/views/import_export.py
 msgid "File upload corrupted. Please try again"
-msgstr ""
+msgstr "档案上传毁损，请再试一遍。"
 
 #: cms/djangoapps/contentstore/views/import_export.py
 msgid "Could not find the {0} file in the package."
-msgstr ""
+msgstr "在此封装中无法找到档案 {0} "
 
 #: cms/djangoapps/contentstore/views/item.py
 msgid "Invalid data"
@@ -312,7 +312,7 @@ msgstr "学生必须获得 {score}{pct_sign} 或者更高的分数才能查看�
 #. a percent value out of 100, e.g. "58%" means "58/100".
 #: cms/djangoapps/contentstore/views/item.py
 msgid "%"
-msgstr ""
+msgstr "%"
 
 #: cms/djangoapps/contentstore/views/item.py
 msgid "{section_or_subsection} \"{display_name}\""
@@ -420,7 +420,7 @@ msgstr "未知"
 #. (e.g. desktop, mobile high quality, mobile low quality)
 #: cms/djangoapps/contentstore/views/videos.py
 msgid "{profile_name} URL"
-msgstr ""
+msgstr "{profile_name} URL"
 
 #: cms/djangoapps/contentstore/views/videos.py
 msgid "Duration"
@@ -483,7 +483,7 @@ msgstr "“{name}”字段的格式不正确。{detailed_message}"
 
 #: cms/lib/xblock/tagging.py
 msgid "Learning outcomes"
-msgstr ""
+msgstr "学习成果"
 
 #: cms/lib/xblock/tagging.py
 msgid "Dictionary with the available tags"
