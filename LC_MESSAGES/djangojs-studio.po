@@ -103,7 +103,7 @@ msgstr "签名字段（S）有无效数据"
 
 #: cms/static/js/certificates/views/certificate_details.js
 msgid "Edit this certificate?"
-msgstr 编辑此证书？""
+msgstr "编辑此证书？"
 
 #: cms/static/js/certificates/views/certificate_details.js
 msgid ""
