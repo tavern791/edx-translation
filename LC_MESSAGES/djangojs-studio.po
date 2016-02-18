@@ -91,50 +91,50 @@ msgstr "该链接将在一个模式窗口中打开"
 
 #: cms/static/js/certificates/collections/certificates.js
 msgid "Could not parse certificate JSON. %(message)s"
-msgstr ""
+msgstr "无法解析证书JSON。 %(message)s"
 
 #: cms/static/js/certificates/models/certificate.js
 msgid "Certificate name is required."
-msgstr ""
+msgstr "证书名称是必需的"
 
 #: cms/static/js/certificates/models/certificate.js
 msgid "Signatory field(s) has invalid data."
-msgstr ""
+msgstr "签名字段（S）有无效数据"
 
 #: cms/static/js/certificates/views/certificate_details.js
 msgid "Edit this certificate?"
-msgstr ""
+msgstr 编辑此证书？""
 
 #: cms/static/js/certificates/views/certificate_details.js
 msgid ""
 "This certificate has already been activated and is live. Are you sure you "
 "want to continue editing?"
-msgstr ""
+msgstr "此证书已被激活并且被使用。 确定继续编辑?"
 
 #: cms/static/js/certificates/views/certificate_details.js
 msgid "Yes, allow edits to the active Certificate"
-msgstr ""
+msgstr "是的，允许编辑激活的证书"
 
 #. Translators: This field pertains to the custom label for a certificate.
 #. Translators: this refers to a collection of certificates.
 #: cms/static/js/certificates/views/certificate_item.js
 #: cms/static/js/certificates/views/certificates_list.js
 msgid "certificate"
-msgstr ""
+msgstr "证书"
 
 #: cms/static/js/certificates/views/certificates_list.js
 msgid "Set up your certificate"
-msgstr ""
+msgstr "设置您的证书"
 
 #. Translators: This line refers to the initial state of the form when no data
 #. has been inserted
 #: cms/static/js/certificates/views/certificates_list.js
 msgid "You have not created any certificates yet."
-msgstr ""
+msgstr "您尚未创建任何证书"
 
 #: cms/static/js/certificates/views/signatory_editor.js
 msgid "Delete \"<%= signatoryName %>\" from the list of signatories?"
-msgstr ""
+msgstr "删除\"<%= signatoryName %>\"从签名单中？"
 
 #: cms/static/js/certificates/views/signatory_editor.js
 #: cms/static/js/views/course_info_update.js
@@ -143,11 +143,11 @@ msgstr "这个动作无法取消。"
 
 #: cms/static/js/certificates/views/signatory_editor.js
 msgid "Upload signature image."
-msgstr ""
+msgstr "上传签名图片"
 
 #: cms/static/js/certificates/views/signatory_editor.js
 msgid "Image must be in PNG format."
-msgstr ""
+msgstr "图片必须是PNG格式。"
 
 #: cms/static/js/collections/group.js
 #, c-format
@@ -244,7 +244,7 @@ msgstr "导入失败。"
 msgid ""
 "File format not supported. Please upload a file with a {file_extension} "
 "extension."
-msgstr ""
+msgstr "文件格式不支持。请上传带有{file_extension}扩展名的文件。"
 
 #: cms/static/js/factories/manage_users.js
 msgid "Already a course team member"
@@ -311,15 +311,15 @@ msgstr "上传失败"
 
 #: cms/static/js/models/chapter.js
 msgid "Chapter name and asset_path are both required"
-msgstr ""
+msgstr "章名和资源路径都是必需的"
 
 #: cms/static/js/models/chapter.js
 msgid "Chapter name is required"
-msgstr ""
+msgstr "章名是必需的"
 
 #: cms/static/js/models/chapter.js
 msgid "asset_path is required"
-msgstr ""
+msgstr "资源路径是必需的"
 
 #: cms/static/js/models/course.js cms/static/js/models/section.js
 msgid "You must specify a name"
@@ -359,11 +359,11 @@ msgstr "课程必须指定开始日期。"
 
 #: cms/static/js/models/settings/course_details.js
 msgid "The course end date must be later than the course start date."
-msgstr ""
+msgstr "课程结束日期必须晚于课程开始日期"
 
 #: cms/static/js/models/settings/course_details.js
 msgid "The course start date must be later than the enrollment start date."
-msgstr ""
+msgstr "课程开始日期必须晚于注册开始日期"
 
 #: cms/static/js/models/settings/course_details.js
 msgid "The enrollment start date cannot be after the enrollment end date."
@@ -407,19 +407,19 @@ msgstr "宽限时间必须以 HH:MM 格式设定。"
 
 #: cms/static/js/models/settings/course_grading_policy.js
 msgid "Not able to set passing grade to less than %(minimum_grade_cutoff)s%."
-msgstr ""
+msgstr "无法设置及格分数小于%(minimum_grade_cutoff)s%"
 
 #: cms/static/js/models/textbook.js
 msgid "Textbook name is required"
-msgstr ""
+msgstr "教材名称是必需的"
 
 #: cms/static/js/models/textbook.js
 msgid "Please add at least one chapter"
-msgstr ""
+msgstr "请至少添加一个章节"
 
 #: cms/static/js/models/textbook.js
 msgid "All chapters must have a name and asset"
-msgstr ""
+msgstr "所有章节必须有一个名称和资源"
 
 #: cms/static/js/models/uploads.js
 msgid ""
@@ -437,7 +437,7 @@ msgstr "该组件存在验证问题。"
 
 #: cms/static/js/views/active_video_upload_list.js
 msgid "Your video uploads are not complete."
-msgstr ""
+msgstr "您的视频上传不完整。"
 
 #: cms/static/js/views/asset.js
 msgid "Delete File Confirmation"
@@ -532,7 +532,7 @@ msgstr "内容组"
 
 #: cms/static/js/views/content_group_list.js
 msgid "Add your first content group"
-msgstr ""
+msgstr "添加您的第一个内容组"
 
 #: cms/static/js/views/content_group_list.js
 msgid "You have not created any content groups yet."
@@ -581,7 +581,7 @@ msgstr "组配置"
 
 #: cms/static/js/views/group_configurations_list.js
 msgid "Add your first group configuration"
-msgstr ""
+msgstr "添加您的第一个组配置"
 
 #: cms/static/js/views/group_configurations_list.js
 msgid "You have not created any group configurations yet."
@@ -601,7 +601,7 @@ msgstr "文件上传错误"
 
 #: cms/static/js/views/license.js
 msgid "All Rights Reserved"
-msgstr ""
+msgstr "版权所有"
 
 #: cms/static/js/views/license.js
 msgid "You reserve all rights for your work"
@@ -617,7 +617,7 @@ msgstr ""
 
 #: cms/static/js/views/license.js
 msgid "Version"
-msgstr ""
+msgstr "版本"
 
 #: cms/static/js/views/license.js
 msgid "Attribution"
@@ -632,7 +632,7 @@ msgstr ""
 
 #: cms/static/js/views/license.js
 msgid "Noncommercial"
-msgstr ""
+msgstr "非商业性"
 
 #: cms/static/js/views/license.js
 msgid ""
@@ -653,7 +653,7 @@ msgstr ""
 
 #: cms/static/js/views/license.js
 msgid "Share Alike"
-msgstr ""
+msgstr "相同方式共享"
 
 #: cms/static/js/views/license.js
 msgid ""
@@ -740,7 +740,7 @@ msgstr "发布"
 
 #: cms/static/js/views/modals/course_outline_modals.js
 msgid "Basic"
-msgstr ""
+msgstr "基础的"
 
 #. Translators: This label refers to access to course content.
 #: cms/static/js/views/modals/course_outline_modals.js
@@ -934,15 +934,15 @@ msgstr "请注意：当前策略键值对并未校验。如果遇到问题，请
 
 #: cms/static/js/views/settings/main.js
 msgid "Course Credit Requirements"
-msgstr ""
+msgstr "课程学分要求"
 
 #: cms/static/js/views/settings/main.js
 msgid "The minimum grade for course credit is not set."
-msgstr ""
+msgstr "未设置课程学分的最低等级。"
 
 #: cms/static/js/views/settings/main.js
 msgid "Course pacing cannot be changed once a course has started."
-msgstr ""
+msgstr "课程一旦开课就不能更改课程安排"
 
 #: cms/static/js/views/settings/main.js
 msgid "%(hours)s:%(minutes)s (current UTC time)"
@@ -998,7 +998,7 @@ msgstr ""
 
 #: cms/static/js/views/utils/xblock_utils.js
 msgid "Delete this %(xblock_type)s (and prerequisite)?"
-msgstr ""
+msgstr "删除此%(xblock_type)s（以及前提条件）？"
 
 #: cms/static/js/views/utils/xblock_utils.js
 #: cms/static/js/views/utils/xblock_utils.js
