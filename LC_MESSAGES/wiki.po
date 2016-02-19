@@ -672,7 +672,7 @@ msgstr "文档“%s”及其子链接已经被恢复。"
 #, python-format
 msgid ""
 "The article %(title)s is now set to display revision #%(revision_number)d"
-msgstr ""
+msgstr " %(title)s 这篇文章现在被设定为显示版本 #%(revision_number)d"
 
 #: wiki/views/article.py
 msgid "New title"
