@@ -236,7 +236,7 @@ msgstr "了解更多关于管理文件的信息"
 
 #: cms/templates/asset_index.html
 msgid "close"
-msgstr ""
+msgstr "关闭"
 
 #: cms/templates/asset_index.html
 msgid "Max per-file size: {max_filesize}MB"
@@ -244,7 +244,7 @@ msgstr "单个文件的最大大小为：{max_filesize}MB"
 
 #: cms/templates/asset_index.html
 msgid "URL:"
-msgstr ""
+msgstr "网址："
 
 #: cms/templates/asset_index.html
 msgid "Choose File"
@@ -260,7 +260,7 @@ msgstr "关闭警告"
 
 #: cms/templates/certificates.html
 msgid "Course Certificates"
-msgstr ""
+msgstr "课程证书"
 
 #: cms/templates/certificates.html cms/templates/certificates.html
 #: cms/templates/certificates.html cms/templates/export.html
@@ -270,15 +270,15 @@ msgstr "证书"
 
 #: cms/templates/certificates.html
 msgid "This module is not enabled."
-msgstr ""
+msgstr "此模块未启用。"
 
 #: cms/templates/certificates.html
 msgid "This course does not use a mode that offers certificates."
-msgstr ""
+msgstr "本课程不使用提供证书的方式。"
 
 #: cms/templates/certificates.html
 msgid "Working with Certificates"
-msgstr ""
+msgstr "使用证书"
 
 #: cms/templates/certificates.html
 msgid ""
@@ -307,7 +307,7 @@ msgstr ""
 
 #: cms/templates/certificates.html
 msgid "Issuing Certificates to Learners"
-msgstr ""
+msgstr "为学员颁发证书"
 
 #: cms/templates/certificates.html
 msgid ""
@@ -325,7 +325,7 @@ msgstr ""
 
 #: cms/templates/certificates.html
 msgid "Learn more about certificates"
-msgstr ""
+msgstr "了解更多有关证书的信息"
 
 #: cms/templates/certificates.html cms/templates/certificates.html
 #: cms/templates/group_configurations.html
@@ -380,7 +380,7 @@ msgstr "复制该组件"
 #: cms/templates/component.html cms/templates/studio_xblock_wrapper.html
 #: cms/templates/studio_xblock_wrapper.html
 msgid "Delete"
-msgstr ""
+msgstr "删除"
 
 #: cms/templates/component.html
 msgid "Delete this component"
@@ -397,7 +397,7 @@ msgstr "显示名称"
 
 #: cms/templates/container.html
 msgid "Open the courseware in the LMS"
-msgstr ""
+msgstr "在LMS界面打开课件"
 
 #: cms/templates/container.html
 msgid "View Live Version"
@@ -405,11 +405,11 @@ msgstr "观看在线版本"
 
 #: cms/templates/container.html
 msgid "Preview the courseware in the LMS"
-msgstr ""
+msgstr "在LMS界面预览课件"
 
 #: cms/templates/container.html
 msgid "Preview"
-msgstr ""
+msgstr "预览"
 
 #: cms/templates/container.html
 msgid "Adding components"
@@ -654,11 +654,11 @@ msgstr ""
 
 #: cms/templates/course_outline.html cms/templates/index.html
 msgid "Dismiss"
-msgstr ""
+msgstr "解雇"
 
 #: cms/templates/course_outline.html
 msgid "Warning"
-msgstr ""
+msgstr "警告"
 
 #: cms/templates/course_outline.html
 msgid "This course uses features that are no longer supported."
@@ -666,15 +666,15 @@ msgstr ""
 
 #: cms/templates/course_outline.html
 msgid "You must delete or replace the following components."
-msgstr ""
+msgstr "您必须删除或替换以下组件。"
 
 #: cms/templates/course_outline.html
 msgid "Unsupported Components"
-msgstr ""
+msgstr "不支持的组件"
 
 #: cms/templates/course_outline.html
 msgid "Deprecated Component"
-msgstr ""
+msgstr "组件已过时"
 
 #: cms/templates/course_outline.html
 msgid ""
@@ -686,7 +686,7 @@ msgstr ""
 
 #: cms/templates/course_outline.html
 msgid "Unsupported Advance Modules"
-msgstr ""
+msgstr "不支持的高级模块"
 
 #: cms/templates/course_outline.html
 msgid "Click to add a new section"
@@ -727,15 +727,15 @@ msgstr "编辑开始日期"
 
 #: cms/templates/course_outline.html
 msgid "Course Pacing:"
-msgstr ""
+msgstr "课程进度"
 
 #: cms/templates/course_outline.html
 msgid "Self-Paced"
-msgstr ""
+msgstr "自定义进度"
 
 #: cms/templates/course_outline.html
 msgid "Instructor-Paced"
-msgstr ""
+msgstr "讲师进度"
 
 #: cms/templates/course_outline.html
 msgid "Creating your course organization"
@@ -1828,7 +1828,7 @@ msgstr ""
 
 #: cms/templates/index.html
 msgid "Configuration Error"
-msgstr ""
+msgstr "配置错误"
 
 #: cms/templates/index.html
 msgid ""
@@ -1960,7 +1960,7 @@ msgstr "知识库容纳了一组可以在多个课程中重复利用的组件。
 
 #: cms/templates/index.html
 msgid "You haven't created any programs yet."
-msgstr ""
+msgstr "您尚未创建任何日程。"
 
 #: cms/templates/index.html
 msgid "Programs are groups of courses related to a common subject."
@@ -1968,7 +1968,7 @@ msgstr ""
 
 #: cms/templates/index.html
 msgid "Create Your First Program"
-msgstr ""
+msgstr "创建第一个日程"
 
 #: cms/templates/index.html
 msgid "New to {studio_name}?"
@@ -2121,7 +2121,7 @@ msgstr "用户邮箱地址"
 
 #: cms/templates/manage_users.html
 msgid "Provide the email address of the user you want to add as Staff"
-msgstr ""
+msgstr "提供您要添加为员工的用户的电子邮件地址"
 
 #: cms/templates/manage_users.html cms/templates/manage_users_lib.html
 msgid "Add User"
@@ -2234,7 +2234,7 @@ msgstr ""
 
 #: cms/templates/program_authoring.html cms/templates/widgets/header.html
 msgid "Program Administration"
-msgstr ""
+msgstr "计划管理"
 
 #: cms/templates/register.html cms/templates/temp-course-landing.html
 #: cms/templates/widgets/header.html
@@ -2385,7 +2385,7 @@ msgstr "您的课程概要页面在您的课程公开之后才对外可见。为
 
 #: cms/templates/settings.html
 msgid "Course Credit Requirements"
-msgstr ""
+msgstr "课程学分要求"
 
 #: cms/templates/settings.html
 msgid "Steps required to earn course credit"
@@ -2393,7 +2393,7 @@ msgstr ""
 
 #: cms/templates/settings.html cms/templates/settings.html
 msgid "Minimum Grade"
-msgstr ""
+msgstr "最低等级"
 
 #: cms/templates/settings.html
 msgid "Successful Proctored Exam"
@@ -2405,11 +2405,11 @@ msgstr ""
 
 #: cms/templates/settings.html
 msgid "ID Verification"
-msgstr ""
+msgstr "身份确认"
 
 #: cms/templates/settings.html
 msgid "In-Course Reverification {number}"
-msgstr ""
+msgstr "课程重新鉴定{number}"
 
 #: cms/templates/settings.html
 msgid "Course Schedule"
@@ -2430,7 +2430,7 @@ msgstr "课程开始时间"
 #: cms/templates/settings.html cms/templates/settings.html
 #: cms/templates/settings.html cms/templates/settings.html
 msgid "(UTC)"
-msgstr ""
+msgstr "（世界标准时间）"
 
 #: cms/templates/settings.html
 msgid "Last day your course is active"
@@ -2484,15 +2484,15 @@ msgstr ""
 
 #: cms/templates/settings.html
 msgid "Course Details"
-msgstr ""
+msgstr "课程详情"
 
 #: cms/templates/settings.html
 msgid "Provide useful information about your course"
-msgstr ""
+msgstr "提供相关课程的有用信息"
 
 #: cms/templates/settings.html
 msgid "Course Language"
-msgstr ""
+msgstr "课程语言"
 
 #: cms/templates/settings.html
 msgid ""
@@ -2631,7 +2631,7 @@ msgstr "评分要求"
 
 #: cms/templates/settings.html
 msgid " %"
-msgstr ""
+msgstr "%"
 
 #: cms/templates/settings.html
 msgid ""
@@ -2641,7 +2641,7 @@ msgstr "学生要顺利完成入学考试所必须满足的分数。"
 
 #: cms/templates/settings.html
 msgid "Course Pacing"
-msgstr ""
+msgstr "课程开始"
 
 #: cms/templates/settings.html
 msgid "Set the pacing for this course"
@@ -2663,7 +2663,7 @@ msgstr ""
 
 #: cms/templates/settings.html
 msgid "Course Content License"
-msgstr ""
+msgstr "课程内容许可"
 
 #. Translators: At the course settings, the editor is able to select the
 #. default course content license.
@@ -2755,19 +2755,19 @@ msgstr "您对学生最终得分的整体评分范围"
 
 #: cms/templates/settings_graders.html
 msgid "Credit Eligibility"
-msgstr ""
+msgstr "信用资格"
 
 #: cms/templates/settings_graders.html
 msgid "Settings for course credit eligibility"
-msgstr ""
+msgstr "课程学分资格设置"
 
 #: cms/templates/settings_graders.html
 msgid "Minimum Credit-Eligible Grade:"
-msgstr ""
+msgstr "最低信用资格等级："
 
 #: cms/templates/settings_graders.html
 msgid "Must be greater than or equal to the course passing grade"
-msgstr ""
+msgstr "必须大于或等于课程及格分数"
 
 #: cms/templates/settings_graders.html
 msgid "Grading Rules &amp; Policies"
@@ -2844,11 +2844,11 @@ msgstr ""
 
 #: cms/templates/temp-course-landing.html
 msgid "Massachusetts Institute of Technology"
-msgstr ""
+msgstr "麻省理工学院"
 
 #: cms/templates/temp-course-landing.html
 msgid "Forgot?"
-msgstr ""
+msgstr "忘记？"
 
 #: cms/templates/temp-course-landing.html
 msgid ""
@@ -2931,7 +2931,7 @@ msgstr ""
 
 #: cms/templates/videos_index.html
 msgid "Maximum Video File Size"
-msgstr ""
+msgstr "视频文件最大"
 
 #: cms/templates/videos_index.html
 msgid ""
@@ -3032,11 +3032,11 @@ msgstr "内容组已不复存在。请选择另一个，或者允许所有学生
 
 #: cms/templates/visibility_editor.html cms/templates/visibility_editor.html
 msgid "Verification Checkpoint"
-msgstr ""
+msgstr "验证检查点"
 
 #: cms/templates/visibility_editor.html
 msgid "Verification checkpoint to complete"
-msgstr ""
+msgstr "验证检查点完成"
 
 #: cms/templates/visibility_editor.html
 msgid ""
@@ -3129,7 +3129,7 @@ msgstr "当前课程"
 
 #: cms/templates/widgets/header.html cms/templates/widgets/header.html
 msgid "Course Navigation"
-msgstr ""
+msgstr "课程导航"
 
 #: cms/templates/widgets/header.html
 msgid "Outline"
@@ -3178,12 +3178,12 @@ msgstr "启动 Latex 源编译器"
 #: cms/templates/widgets/problem-edit.html
 #: cms/templates/widgets/problem-edit.html
 msgid "Heading"
-msgstr ""
+msgstr "标题"
 
 #: cms/templates/widgets/problem-edit.html
 #: cms/templates/widgets/problem-edit.html
 msgid "Insert a heading"
-msgstr ""
+msgstr "插入标题"
 
 #: cms/templates/widgets/problem-edit.html
 #: cms/templates/widgets/problem-edit.html
@@ -3193,7 +3193,7 @@ msgstr "多项选择"
 #: cms/templates/widgets/problem-edit.html
 #: cms/templates/widgets/problem-edit.html
 msgid "Add a multiple choice question"
-msgstr ""
+msgstr "添加多选题"
 
 #: cms/templates/widgets/problem-edit.html
 #: cms/templates/widgets/problem-edit.html
@@ -3203,7 +3203,7 @@ msgstr "复选框"
 #: cms/templates/widgets/problem-edit.html
 #: cms/templates/widgets/problem-edit.html
 msgid "Add a question with checkboxes"
-msgstr ""
+msgstr "添加带复选框的问题"
 
 #: cms/templates/widgets/problem-edit.html
 #: cms/templates/widgets/problem-edit.html
@@ -3243,7 +3243,7 @@ msgstr "解释"
 #: cms/templates/widgets/problem-edit.html
 #: cms/templates/widgets/problem-edit.html
 msgid "Add an explanation for this question"
-msgstr ""
+msgstr "为这个问题添加解释"
 
 #: cms/templates/widgets/problem-edit.html
 msgid "Advanced Editor"
@@ -3267,4 +3267,4 @@ msgstr ""
 
 #: cms/templates/widgets/tabs-aggregator.html
 msgid "name"
-msgstr ""
+msgstr "名称"
