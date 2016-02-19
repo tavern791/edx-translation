@@ -301,7 +301,7 @@ msgstr "专业的教育模式不允许有过期的日期时间设置。"
 #: common/djangoapps/course_modes/models.py
 msgid ""
 "The time period before a course ends in which a course mode will expire"
-msgstr ""
+msgstr "在课程结束前，课程模式将到期"
 
 #: common/djangoapps/course_modes/views.py
 msgid "Enrollment is closed"
@@ -390,19 +390,19 @@ msgstr "课程{course}的黑名单国家： {country}"
 msgid ""
 "You have already created an account using an external login like WebAuth or "
 "Shibboleth. Please contact {tech_support_email} for support."
-msgstr ""
+msgstr "你已经创建了外部登陆类似WebAuth或Shibboleth的账户。请联系{tech_support_email}以获得支持。"
 
 #: common/djangoapps/student/forms.py
 msgid ""
 "That e-mail address doesn't have an associated user account. Are you sure "
 "you've registered?"
-msgstr ""
+msgstr "该邮箱地址并不属于任何已注册的用户，确定你已注册吗?"
 
 #: common/djangoapps/student/forms.py
 msgid ""
 "The user account associated with this e-mail address cannot reset the "
 "password."
-msgstr ""
+msgstr "该邮箱用户账号不能重设密码。"
 
 #: common/djangoapps/student/forms.py
 msgid "Username must be minimum of two characters long"
@@ -486,13 +486,13 @@ msgstr "密码: "
 
 #: common/djangoapps/student/forms.py
 msgid "Unauthorized email address."
-msgstr ""
+msgstr "未授权的邮箱地址。"
 
 #: common/djangoapps/student/forms.py
 msgid ""
 "It looks like {email} belongs to an existing account. Try again with a "
 "different email address."
-msgstr ""
+msgstr "{email}已绑定账户，请使用其他邮箱。"
 
 #: common/djangoapps/student/middleware.py
 msgid ""
@@ -515,7 +515,7 @@ msgstr "女"
 #. Translators: 'Other' refers to the student's gender
 #: common/djangoapps/student/models.py
 msgid "Other/Prefer Not to Say"
-msgstr "其他/不想说"
+msgstr "其他/保密"
 
 #: common/djangoapps/student/models.py
 msgid "Doctorate"
@@ -557,15 +557,15 @@ msgstr "其他教育程度"
 
 #: common/djangoapps/student/models.py
 msgid "{platform_name} Honor Code Certificate for {course_name}"
-msgstr "{平台名称}荣誉代码证书{课程名称}"
+msgstr "{platform_name}荣誉代码证书{course_name}"
 
 #: common/djangoapps/student/models.py
 msgid "{platform_name} Verified Certificate for {course_name}"
-msgstr "{平台名称}经认证的证书{课程名称}"
+msgstr "{platform_name}经认证的证书{course_name}"
 
 #: common/djangoapps/student/models.py common/djangoapps/student/models.py
 msgid "{platform_name} Professional Certificate for {course_name}"
-msgstr "{平台名称}专业证书{课程名称}"
+msgstr "{platform_name}专业证书{course_name}"
 
 #: common/djangoapps/student/models.py
 msgid ""
@@ -582,7 +582,7 @@ msgstr "领英伙伴的短标识符被用在跟踪代码中。 (比如: 'edx') �
 
 #: common/djangoapps/student/models.py
 msgid "{platform_name} Certificate for {course_name}"
-msgstr "{平台名称} 证书 {课程名称}"
+msgstr "{platform_name} 证书 {course_name}"
 
 #: common/djangoapps/student/models.py common/djangoapps/student/models.py
 msgid "The ISO 639-1 language code for this language."
@@ -604,7 +604,7 @@ msgstr "选课属性中的值"
 msgid ""
 "The window of time after enrolling during which users can be granted a "
 "refund, represented in microseconds. The default is 14 days."
-msgstr ""
+msgstr "注册课程后用户可以退课的期限，以微秒表示。默认是14天。"
 
 #: common/djangoapps/student/views.py
 msgid "The course you are looking for does not start until {date}."
@@ -632,7 +632,7 @@ msgstr "您还没有选修本课程"
 
 #: common/djangoapps/student/views.py
 msgid "Your certificate prevents you from unenrolling from this course"
-msgstr ""
+msgstr "您不能退掉带已获得证书的课程。"
 
 #: common/djangoapps/student/views.py
 msgid "Enrollment action is invalid"
@@ -744,7 +744,7 @@ msgid ""
 msgid_plural ""
 "You are re-using a password that you have used recently. You must have {num}"
 " distinct passwords before reusing a previous password."
-msgstr[0] ""
+msgstr[0] "您正在重新使用你的历史密码。在重用之前，你必须更换过 {num} 次不同的密码。"
 
 #: common/djangoapps/student/views.py
 msgid ""
@@ -753,7 +753,7 @@ msgid ""
 msgid_plural ""
 "You are resetting passwords too frequently. Due to security policies, {num} "
 "days must elapse between password resets."
-msgstr[0] ""
+msgstr[0] "您重设密码的请求太频繁，为了您的账户安全，重设密码操作需要间隔{num}天。"
 
 #: common/djangoapps/student/views.py
 msgid "Password reset unsuccessful"
@@ -1166,7 +1166,7 @@ msgstr "十二月"
 msgid "The file must end with the extension '{file_types}'."
 msgid_plural ""
 "The file must end with one of the following extensions: '{file_types}'."
-msgstr[0] ""
+msgstr[0] "该文件的副标题名必须为：‘{file_types}’。"
 
 #: common/djangoapps/util/file.py
 msgid "Maximum upload file size is {file_size} bytes."
@@ -1226,12 +1226,12 @@ msgstr "与受限词字典中的词语过于相似。"
 
 #: common/djangoapps/xblock_django/models.py
 msgid "Space-separated list of XBlocks which should not render."
-msgstr ""
+msgstr "不应该渲染的空间分隔列表Xblock控件"
 
 #: common/djangoapps/xblock_django/models.py
 msgid ""
 "Space-separated list of XBlock types whose creation to disable in Studio."
-msgstr ""
+msgstr "Studio中不可用的空间分隔列表XBlock类型"
 
 #: common/lib/capa/capa/capa_problem.py
 msgid "Cannot rescore problems with possible file submissions"
@@ -1265,28 +1265,28 @@ msgstr "处理中"
 #. question
 #: common/lib/capa/capa/inputtypes.py
 msgid "This answer is correct."
-msgstr ""
+msgstr "回答正确"
 
 #: common/lib/capa/capa/inputtypes.py
 msgid "This answer is incorrect."
-msgstr ""
+msgstr "回答错误"
 
 #: common/lib/capa/capa/inputtypes.py
 msgid "This answer is partially correct."
-msgstr ""
+msgstr "回答部分正确"
 
 #: common/lib/capa/capa/inputtypes.py common/lib/capa/capa/inputtypes.py
 msgid "This answer is unanswered."
-msgstr ""
+msgstr "回答没有处理"
 
 #: common/lib/capa/capa/inputtypes.py
 msgid "This answer is being processed."
-msgstr ""
+msgstr "回答正在处理"
 
 #. Translators: 'ChoiceGroup' is an input type and should not be translated.
 #: common/lib/capa/capa/inputtypes.py
 msgid "ChoiceGroup: unexpected tag {tag_name}"
-msgstr "ChoiceGroup：未知标签{tag_name}"
+msgstr "选项：未知标签{tag_name}"
 
 #: common/lib/capa/capa/inputtypes.py common/lib/capa/capa/inputtypes.py
 msgid "Answer received."
@@ -1804,7 +1804,7 @@ msgid ""
 "notify MathWorks immediately if you believe the key is exposed or "
 "compromised. To obtain a key for your course, or to report an issue, please "
 "contact moocsupport@mathworks.com"
-msgstr ""
+msgstr "输入MATLAB托管服务提供MathWorks公司的API密钥。这个密钥被授予通过本课程的指定时间独家试用。请不要与其他课程共享的 API 密钥。如果你认为密钥已曝露或破坏，立即告知MathWorks。若要对你的课程申请一个密钥，或报告问题，请联系 moocsupport@mathworks.com"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Check"
@@ -1874,7 +1874,7 @@ msgstr "错误: {msg}"
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "{num_hour} hour"
 msgid_plural "{num_hour} hours"
-msgstr[0] ""
+msgstr[0] "{num_hour} 小时"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "{num_minute} minute"
@@ -1908,7 +1908,7 @@ msgstr "你的答案已保存。"
 msgid ""
 "Your answers have been saved but not graded. Click '{button_name}' to grade "
 "them."
-msgstr ""
+msgstr "您的答案已保存，但不计分。点击 '{button_name}'评分。"
 
 #. Translators: A student must "make an attempt" to solve the problem on the
 #. page before they can reset it.
@@ -1947,7 +1947,7 @@ msgstr "以下列格式输入课程 LTI 工具的通行证：“id:client_key:cl
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "List of pairs of (title, url) for textbooks used in this course"
-msgstr ""
+msgstr "课程的教科书（标题，url）列表"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Slug that points to the wiki for this course"
@@ -2221,13 +2221,13 @@ msgstr ""
 #. course content.
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "CCX Connector URL"
-msgstr ""
+msgstr "CCX连接器地址"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
 "URL for CCX Connector application for managing creation of CCXs. (optional)."
 " Ignored unless 'Enable CCX' is set to 'true'."
-msgstr ""
+msgstr "（可不填）CCX管理程序的地址。需要设置‘启用CCX’为‘true’有效。"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Allow Anonymous Discussion Posts"
@@ -2261,14 +2261,14 @@ msgstr "输入在你课程中使用的高级组件的名字。"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Course Home Sidebar Name"
-msgstr ""
+msgstr "课程主页侧边栏名称"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
 "Enter the heading that you want students to see above your course handouts "
 "on the Course Home page. Your course handouts appear in the right panel of "
 "the page."
-msgstr ""
+msgstr "进入课程主页时，你希望学生能够看到的课程讲义，你的课程讲义显示在页面的右侧。"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Course Handouts"
@@ -2356,7 +2356,7 @@ msgid ""
 "Use this setting only when generating PDF certificates. Between quotation "
 "marks, enter the short name of the type of certificate that students receive"
 " when they complete the course. For instance, \"Certificate\"."
-msgstr ""
+msgstr "当你需要生成PDF证书时使用这个设置。在引号间输入学生完成课程后收到的证书的简称，例如，\"证书\""
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Certificate Name (Short)"
@@ -2367,7 +2367,7 @@ msgid ""
 "Use this setting only when generating PDF certificates. Between quotation "
 "marks, enter the long name of the type of certificate that students receive "
 "when they complete the course. For instance, \"Certificate of Achievement\"."
-msgstr ""
+msgstr "当你需要生成PDF证书时使用这个设置。在引号间输入学生完成课程后收到的证书的全称，例如，\"结课证书\""
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Certificate Name (Long)"
@@ -2385,7 +2385,7 @@ msgstr "若为“true”，将会启用课程证书的Web/HTML视图。"
 #. configuration values
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Certificate Web/HTML View Overrides"
-msgstr ""
+msgstr "课程证书的Web/HTML视图覆盖"
 
 #. Translators: These overrides allow for an alternative configuration of the
 #. certificate web view
@@ -2483,7 +2483,7 @@ msgstr "仅限受邀者"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Whether to restrict enrollment to invitation by the course staff."
-msgstr ""
+msgstr "是否限制注册方式为仅通过课程教员邀请。"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Pre-Course Survey Name"
@@ -2595,7 +2595,7 @@ msgid ""
 "provide a list of 2 topics, enter the configuration in this format: "
 "{example_format}. In \"id\" values, the only supported special characters "
 "are underscore, hyphen, and period."
-msgstr ""
+msgstr "在花括号内为团队指定最大的团队规模和主题。请确保将所有主题值的集合都在一组方括号中，在每个主题后用逗号分隔，并在方括号结尾加上一个逗号。列如，要指定团队最多应该有5个参与者并且有2个主题的列表，输入该格式的配置：{example_format}。在\"id\"值，唯一支持的特殊字符有下划线，字符，和句号。"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Enable Proctored Exams"
@@ -2606,17 +2606,17 @@ msgid ""
 "Enter true or false. If this value is true, proctored exams are enabled in "
 "your course. Note that enabling proctored exams will also enable timed "
 "exams."
-msgstr ""
+msgstr "输入 true 或 false。如果该值为true，监考的考试是在你的课程启用。请注意，启用监考考试也将启用限时考试。"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Enable Timed Exams"
-msgstr ""
+msgstr "启用限时考试"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
 "Enter true or false. If this value is true, timed exams are enabled in your "
 "course."
-msgstr ""
+msgstr "输入 true 或 false。如果该值为true，限时考试将被启用。"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Minimum Grade for Credit"
@@ -2632,24 +2632,24 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Self Paced"
-msgstr ""
+msgstr "自定进度"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
 "Set this to \"true\" to mark this course as self-paced. Self-paced courses "
 "do not have due dates for assignments, and students can progress through the"
 " course at any rate before the course ends."
-msgstr ""
+msgstr "将其设置为“true”，设定这门课为自学课程。自学课程的任何任务没有截止时间，学生可以在课程结束前以任意进度学习。"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Enable Subsection Prerequisites"
-msgstr ""
+msgstr "启用条件章节"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
 "Enter true or false. If this value is true, you can hide a subsection until "
 "learners earn a minimum score in another, prerequisite subsection."
-msgstr ""
+msgstr "输入 true 或 false。如果设置为true，你能够隐藏某一章节直到学生在一个条件章节中获得了一定的分数才能学习。"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "General"
@@ -2910,12 +2910,12 @@ msgstr "选择其他问题类型。"
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid "The specified library is configured to fetch {count} problem, "
 msgid_plural "The specified library is configured to fetch {count} problems, "
-msgstr[0] ""
+msgstr[0] "特定的函数库用来取来 {count} 问题"
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid "but there is only {actual} matching problem."
 msgid_plural "but there are only {actual} matching problems."
-msgstr[0] ""
+msgstr[0] "但是只有 {actual} 符合的问题"
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid "Edit the library configuration."
@@ -3049,7 +3049,7 @@ msgstr "需要用户名"
 #. service.
 #: common/lib/xmodule/xmodule/lti_module.py
 msgid "Select True to request the user's username."
-msgstr ""
+msgstr "设置为True 以要求用户的用户名"
 
 #: common/lib/xmodule/xmodule/lti_module.py
 msgid "Request user's email"
@@ -3059,7 +3059,7 @@ msgstr "需要用户邮箱"
 #. service.
 #: common/lib/xmodule/xmodule/lti_module.py
 msgid "Select True to request the user's email address."
-msgstr ""
+msgstr "设置为True 以要求用户的邮箱地址"
 
 #: common/lib/xmodule/xmodule/lti_module.py
 msgid "LTI Application Information"
@@ -3083,7 +3083,7 @@ msgstr "输入按钮上的文字用于加载第三方应用。"
 
 #: common/lib/xmodule/xmodule/lti_module.py
 msgid "Accept grades past deadline"
-msgstr ""
+msgstr "接受超过截止时间的成绩"
 
 #: common/lib/xmodule/xmodule/lti_module.py
 msgid ""
@@ -3185,7 +3185,7 @@ msgid ""
 "provide a Python script to identify and randomize values in most of the "
 "problems in your course. Valid values are \"always\", \"onreset\", "
 "\"never\", and \"per_student\"."
-msgstr ""
+msgstr "指定题目中变量值打乱频率的默认值。一般设置为\"never\"，除非你打算用一个Python脚本来随机判别你的课程中的大部分问题，有效值为 \"always\"，\"onreset\"，\"never\"，和\"per_student\"。"
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid "Days Early for Beta Users"
@@ -3269,7 +3269,7 @@ msgstr "请输入true或者false。如果输入true，HTML5的视频将被缓存
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid "Video Pre-Roll"
-msgstr ""
+msgstr "视频前滚"
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid ""
@@ -3277,7 +3277,7 @@ msgid ""
 "Enter the video ID from the Video Uploads page and one or more transcript "
 "files in the following format: {format}. For example, an entry for a video "
 "with two transcripts looks like this: {example}"
-msgstr ""
+msgstr "确定一个时长为5-10秒的视频用作在课程视频前播放。从视频上传页面输入视频的id以及一个或多个以下格式的副本文件： {format}。例如一个视频包含两个副本的视频格式： {example}"
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid "Show Reset Button for Problems"
@@ -3361,13 +3361,13 @@ msgstr "该设置表明这场考试是否有人监考。"
 
 #: common/lib/xmodule/xmodule/seq_module.py
 msgid "Software Secure Review Rules"
-msgstr ""
+msgstr "软件安全审查规则"
 
 #: common/lib/xmodule/xmodule/seq_module.py
 msgid ""
 "This setting indicates what rules the proctoring team should follow when "
 "viewing the videos."
-msgstr ""
+msgstr "此设定表示在观看视频时，团队需要遵循的监管规则。"
 
 #: common/lib/xmodule/xmodule/seq_module.py
 msgid "Is Practice Exam"
@@ -3417,7 +3417,7 @@ msgstr "组配置"
 
 #: common/lib/xmodule/xmodule/split_test_module.py
 msgid "Which child module students in a particular group_id should see"
-msgstr ""
+msgstr "哪一个group_id子模块的学生可见"
 
 #: common/lib/xmodule/xmodule/split_test_module.py
 msgid "{group_name} (inactive)"
@@ -3425,7 +3425,7 @@ msgstr "{group_name} (未激活)"
 
 #: common/lib/xmodule/xmodule/split_test_module.py
 msgid "The experiment is not associated with a group configuration."
-msgstr ""
+msgstr "这个实验与组别配置无关"
 
 #: common/lib/xmodule/xmodule/split_test_module.py
 msgid "Select a Group Configuration"
@@ -3464,7 +3464,7 @@ msgstr "该内容实验可能影响内容可见性。"
 
 #: common/lib/xmodule/xmodule/tabs.py common/lib/xmodule/xmodule/tabs.py
 msgid "External Discussion"
-msgstr ""
+msgstr "外部讨论"
 
 #: common/lib/xmodule/xmodule/tabs.py lms/djangoapps/courseware/tabs.py
 msgid "Home"
@@ -3492,7 +3492,7 @@ msgstr "区分标志"
 msgid ""
 "Add diacritic marks to be added to a text using the comma-separated form, "
 "i.e. markname;urltomark;baseline,markname2;urltomark2;baseline2"
-msgstr ""
+msgstr "在向文本中添加区分标志使用逗号分隔"
 
 #: common/lib/xmodule/xmodule/video_module/transcripts_utils.py
 msgid ""
@@ -3760,7 +3760,7 @@ msgstr "指定是否限制为只有浏览器才能访问该视频，或可以再
 
 #: common/lib/xmodule/xmodule/video_module/video_xfields.py
 msgid "Video Available on Web Only"
-msgstr ""
+msgstr "视频只能在网页可用"
 
 #: common/lib/xmodule/xmodule/video_module/video_xfields.py
 msgid ""
@@ -3873,7 +3873,7 @@ msgstr "联系我们"
 
 #: lms/djangoapps/branding/api.py
 msgid "Careers"
-msgstr ""
+msgstr "职位"
 
 #: lms/djangoapps/branding/api.py
 msgid "Donate"
@@ -3917,7 +3917,7 @@ msgstr "CCX指导"
 
 #: lms/djangoapps/ccx/utils.py
 msgid "The course is full: the limit is {max_student_enrollments_allowed}"
-msgstr ""
+msgstr "课程人数已满：最多为 {max_student_enrollments_allowed} 人"
 
 #: lms/djangoapps/ccx/views.py
 msgid "You must be a CCX Coach to access this view."
@@ -3951,7 +3951,7 @@ msgstr "创建"
 #. messages.
 #: lms/djangoapps/certificates/models.py
 msgid "regenerated"
-msgstr ""
+msgstr "重新生成"
 
 #. Translators: This is a past-tense verb that is inserted into task progress
 #. messages as {action}.
@@ -3966,19 +3966,19 @@ msgstr "已生成"
 #. Translators: This string represents task was executed for all learners.
 #: lms/djangoapps/certificates/models.py lms/djangoapps/certificates/models.py
 msgid "All learners"
-msgstr ""
+msgstr "所有学习者"
 
 #. Translators: This string represents task was executed for students having
 #. exceptions.
 #: lms/djangoapps/certificates/models.py
 msgid "For exceptions"
-msgstr ""
+msgstr "例外"
 
 #: lms/djangoapps/certificates/models.py
 msgid ""
 "A human-readable description of the example certificate.  For example, "
 "'verified' or 'honor' to differentiate between two types of certificates."
-msgstr ""
+msgstr "示例证书的可读说明。例如，“合格”或“荣誉”两类区分"
 
 #: lms/djangoapps/certificates/models.py
 msgid ""
@@ -3992,7 +3992,7 @@ msgid ""
 "An access key for the example certificate.  This is used when we receive a "
 "response from the queue to validate that the sender is the same entity we "
 "asked to generate the certificate."
-msgstr ""
+msgstr "示例证书的接入密钥。用来验证证书队列返回的证书是我们请求生成的同一证书实体。"
 
 #: lms/djangoapps/certificates/models.py
 msgid "The full name that will appear on the certificate."
@@ -4024,7 +4024,7 @@ msgstr "徽章图片的文件大小必须小于250KB。"
 
 #: lms/djangoapps/certificates/models.py
 msgid "The course mode for this badge image. For example, \"verified\" or \"honor\"."
-msgstr ""
+msgstr "代表徽章图片的课程模式名称。例如，\"verified\" 或者 \"honor\"。"
 
 #: lms/djangoapps/certificates/models.py
 msgid ""
@@ -4048,75 +4048,75 @@ msgstr "模板名称。"
 
 #: lms/djangoapps/certificates/models.py
 msgid "Description and/or admin notes."
-msgstr ""
+msgstr "描述与笔记"
 
 #: lms/djangoapps/certificates/models.py
 msgid "Django template HTML."
-msgstr ""
+msgstr "Django模板"
 
 #: lms/djangoapps/certificates/models.py
 msgid "Organization of template."
-msgstr ""
+msgstr "模板组织"
 
 #: lms/djangoapps/certificates/models.py
 msgid "The course mode for this template."
-msgstr ""
+msgstr "该模板的课程模式"
 
 #: lms/djangoapps/certificates/models.py
 msgid "On/Off switch."
-msgstr ""
+msgstr "开/关"
 
 #: lms/djangoapps/certificates/models.py
 msgid "Description of the asset."
-msgstr ""
+msgstr "资源描述"
 
 #: lms/djangoapps/certificates/models.py
 msgid "Asset file. It could be an image or css file."
-msgstr ""
+msgstr "资源文件。可以是图像或者css样式文件"
 
 #: lms/djangoapps/certificates/models.py
 msgid ""
 "Asset's unique slug. We can reference the asset in templates using this "
 "value."
-msgstr ""
+msgstr "资源唯一标识。我们能通过该值在模版中引用资源。"
 
 #: lms/djangoapps/certificates/views/support.py
 msgid "user is not given."
-msgstr ""
+msgstr "没有指定用户"
 
 #: lms/djangoapps/certificates/views/support.py
 msgid "user '{user}' does not exist"
-msgstr ""
+msgstr "用户 “{user}” 不存在"
 
 #: lms/djangoapps/certificates/views/support.py
 msgid "Course id '{course_id}' is not valid"
-msgstr ""
+msgstr "课程id “{course_id}” 无效"
 
 #: lms/djangoapps/certificates/views/support.py
 msgid "The course does not exist against the given key '{course_key}'"
-msgstr ""
+msgstr "本课程不存在至指定的课程密钥 {course_key}"
 
 #: lms/djangoapps/certificates/views/support.py
 msgid "User {username} does not exist"
-msgstr ""
+msgstr "用户 {username} 不存在"
 
 #: lms/djangoapps/certificates/views/support.py
 msgid "{course_key} is not a valid course key"
-msgstr ""
+msgstr "课程密钥 “{course_key}” 无效"
 
 #: lms/djangoapps/certificates/views/support.py
 #: lms/djangoapps/certificates/views/support.py
 msgid "The course {course_key} does not exist"
-msgstr ""
+msgstr "{course_key} 课程不存在"
 
 #: lms/djangoapps/certificates/views/support.py
 #: lms/djangoapps/certificates/views/support.py
 msgid "User {username} is not enrolled in the course {course_key}"
-msgstr ""
+msgstr "用户 {username} 没有注册课程 {course_key}"
 
 #: lms/djangoapps/certificates/views/support.py
 msgid "An unexpected error occurred while regenerating certificates."
-msgstr ""
+msgstr "在重新生成证书时发生了一个未预期的错误。"
 
 #. Translators:  This text describes the 'Honor' course certificate type.
 #: lms/djangoapps/certificates/views/webview.py
@@ -4124,7 +4124,7 @@ msgid ""
 "An {cert_type} certificate signifies that a learner has agreed to abide by "
 "the honor code established by {platform_name} and has completed all of the "
 "required tasks for this course under its guidelines."
-msgstr ""
+msgstr "一个{cert_type}证书表示学习者同意遵守{platform_name}建立的荣誉准则，并且在课程的指导下完成了课程需要的所有学习任务。"
 
 #. Translators:  This text describes the 'ID Verified' course certificate
 #. type, which is a higher level of
@@ -4137,7 +4137,8 @@ msgid ""
 "required tasks for this course under its guidelines. A {cert_type} "
 "certificate also indicates that the identity of the learner has been checked"
 " and is valid."
-msgstr ""
+msgstr "一个{cert_type}证书表示学习者同意遵守{platform_name}建立的荣誉准则，并且在课程的指导下完成了课程需要的所有学习任务。"
+"一个{cert_type}证书同时也表明学习者的身份已经被验证并且有效。"
 
 #. Translators:  This text describes the 'XSeries' course certificate type.
 #. An XSeries is a collection of
@@ -4147,7 +4148,7 @@ msgstr ""
 msgid ""
 "An {cert_type} certificate demonstrates a high level of achievement in a "
 "program of study, and includes verification of the student's identity."
-msgstr ""
+msgstr "一个{cert_type}证书代表学习过程中获得了较高的成绩，同时包含了对学生身份的证明。"
 
 #. Translators:  The format of the date includes the full name of the month
 #: lms/djangoapps/certificates/views/webview.py
@@ -4159,13 +4160,13 @@ msgstr "{year} {month} {day}"
 msgid ""
 "This is a valid {platform_name} certificate for {user_name}, who "
 "participated in {partner_short_name} {course_number}"
-msgstr ""
+msgstr "这是属于{user_name}的有效的{platform_name}证书，他参加了{partner_short_name} {course_number}"
 
 #. Translators:  This text is bound to the HTML 'title' element of the page
 #. and appears in the browser title bar
 #: lms/djangoapps/certificates/views/webview.py
 msgid "{partner_short_name} {course_number} Certificate | {platform_name}"
-msgstr ""
+msgstr "{partner_short_name} {course_number} 证书 | {platform_name}"
 
 #. Translators:  This text fragment appears after the student's name
 #. (displayed in a large font) on the certificate
@@ -4175,7 +4176,7 @@ msgstr ""
 msgid ""
 "successfully completed, received a passing grade, and was awarded this "
 "{platform_name} {certificate_type} Certificate of Completion in "
-msgstr ""
+msgstr "完成课程、测验通过，并荣获该{platform_name} {certificate_type} 结业证书"
 
 #. Translators: This text describes the purpose (and therefore, value) of a
 #. course certificate
@@ -4183,7 +4184,7 @@ msgstr ""
 msgid ""
 "{platform_name} acknowledges achievements through certificates, which are "
 "awarded for course activities that {platform_name} students complete."
-msgstr ""
+msgstr "{platform_name}根据证书承认学习成果，证书以授予完成课程的{platform_name}学生。"
 
 #. Translators:  'All rights reserved' is a legal term used in copyrighting to
 #. protect published content
@@ -4249,13 +4250,13 @@ msgstr ""
 
 #: lms/djangoapps/certificates/views/webview.py
 msgid "Validate this certificate for yourself"
-msgstr ""
+msgstr "为自己验证此证书"
 
 #. Translators:  This text describes (at a high level) the mission and charter
 #. the edX platform and organization
 #: lms/djangoapps/certificates/views/webview.py
 msgid "{platform_name} offers interactive online classes and MOOCs."
-msgstr ""
+msgstr "{platform_name}提供线上互动课程和MOOCs课程。"
 
 #: lms/djangoapps/certificates/views/webview.py
 msgid "About {platform_name}"
@@ -4288,12 +4289,12 @@ msgstr "{platform_name}承认以下的学生成就"
 msgid ""
 "a course of study offered by {partner_short_name}, an online learning "
 "initiative of {partner_long_name}."
-msgstr ""
+msgstr "课程学习是由 {partner_short_name}所提供，和 {partner_long_name}的主动线上学习。"
 
 #. Translators:  This text represents the description of course
 #: lms/djangoapps/certificates/views/webview.py
 msgid "a course of study offered by {partner_short_name}."
-msgstr ""
+msgstr "课程学习是由 {partner_short_name}所提供。"
 
 #: lms/djangoapps/certificates/views/webview.py
 msgid "I completed the {course_title} course on {platform_name}."
@@ -4302,7 +4303,7 @@ msgstr "我在{platform_name}上完成了{course_title}课程。"
 #: lms/djangoapps/certificates/views/webview.py
 msgid ""
 "I completed a course at {platform_name}. Take a look at my certificate."
-msgstr ""
+msgstr "我已经在{platform_name}完成了一门课程。查看我的证书。"
 
 #: lms/djangoapps/certificates/views/webview.py
 msgid "More Information About {user_name}'s Certificate:"
@@ -4312,7 +4313,7 @@ msgstr "关于 {user_name} 证书的更多信息："
 #. and achieved a certification
 #: lms/djangoapps/certificates/views/webview.py
 msgid "{fullname}, you earned a certificate!"
-msgstr ""
+msgstr "{fullname}, 你已经获得一张证书!"
 
 #. Translators: This line congratulates the user and instructs them to share
 #. their accomplishment on social networks
@@ -4320,7 +4321,7 @@ msgstr ""
 msgid ""
 "Congratulations! This page summarizes what you accomplished. Show it off to "
 "family, friends, and colleagues in your social and professional networks."
-msgstr ""
+msgstr "恭喜!本页总结您所完成的项目。您可以在您的社交中和专业网站中展示给家人，朋友的同事"
 
 #. Translators: This line leads the reader to understand more about the
 #. certificate that a student has been awarded
@@ -4370,17 +4371,17 @@ msgstr "问题"
 
 #: lms/djangoapps/commerce/api/v1/serializers.py
 msgid "{course_id} is not a valid course key."
-msgstr ""
+msgstr "{course_id} 不是有效的课程密钥。"
 
 #: lms/djangoapps/commerce/api/v1/serializers.py
 msgid "Course {course_id} does not exist."
-msgstr ""
+msgstr "{course_id} 课程不存在。"
 
 #: lms/djangoapps/commerce/signals.py
 msgid ""
 "A refund request has been initiated for {username} ({email}). To process "
 "this request, please visit the link(s) below."
-msgstr ""
+msgstr "{username} ({email}) 的退款请求已经生成。给我处理此请求，请访问以下链接。"
 
 #: lms/djangoapps/commerce/signals.py lms/djangoapps/shoppingcart/models.py
 msgid "[Refund] User-Requested Refund"
@@ -4453,7 +4454,7 @@ msgstr "浏览课程维基添加课程标题"
 
 #: lms/djangoapps/courseware/access_response.py
 msgid "Course has not started"
-msgstr ""
+msgstr "课程尚未开始"
 
 #: lms/djangoapps/courseware/access_response.py
 msgid "Course does not start until {}"
@@ -4478,11 +4479,11 @@ msgstr "您无法在移动设备上学习该课程"
 #. month".
 #: lms/djangoapps/courseware/date_summary.py
 msgid "{relative} ago - {absolute}"
-msgstr ""
+msgstr "{relative} 以前 - {absolute}"
 
 #: lms/djangoapps/courseware/date_summary.py
 msgid "in {relative} - {absolute}"
-msgstr ""
+msgstr "{relative} 后- {absolute}"
 
 #: lms/djangoapps/courseware/date_summary.py
 msgid "UTC"
@@ -4490,40 +4491,40 @@ msgstr "国际标准时间"
 
 #: lms/djangoapps/courseware/date_summary.py
 msgid "Today is {date}"
-msgstr ""
+msgstr "今天是 {date}"
 
 #: lms/djangoapps/courseware/date_summary.py
 msgid "Course Starts"
-msgstr ""
+msgstr "课程开始"
 
 #: lms/djangoapps/courseware/date_summary.py
 msgid "Course End"
-msgstr ""
+msgstr "课程结束"
 
 #: lms/djangoapps/courseware/date_summary.py
 msgid ""
 "To earn a certificate, you must complete all requirements before this date."
-msgstr ""
+msgstr "要获取证书，你必须在这个期限之前完成课程的所有要求。"
 
 #: lms/djangoapps/courseware/date_summary.py
 msgid ""
 "This course is archived, which means you can review course content but it is"
 " no longer active."
-msgstr ""
+msgstr "这门课程已经归档，你可以复习课程程内容，但该课程不会再有活动。"
 
 #: lms/djangoapps/courseware/date_summary.py
 msgid "Verification Upgrade Deadline"
-msgstr ""
+msgstr "验证升级截止时间"
 
 #: lms/djangoapps/courseware/date_summary.py
 msgid ""
 "You are still eligible to upgrade to a Verified Certificate! Pursue it to "
 "highlight the knowledge and skills you gain in this course."
-msgstr ""
+msgstr "你任然有资格去提升认证证书。你可以通过强调你在课程中得到的知识和技能。"
 
 #: lms/djangoapps/courseware/date_summary.py
 msgid "Upgrade to Verified Certificate"
-msgstr ""
+msgstr "提升认证证书"
 
 #: lms/djangoapps/courseware/date_summary.py
 msgid "Learn More"
@@ -4531,33 +4532,33 @@ msgstr "了解更多"
 
 #: lms/djangoapps/courseware/date_summary.py
 msgid "Retry Verification"
-msgstr ""
+msgstr "重试验证"
 
 #: lms/djangoapps/courseware/date_summary.py
 msgid "Verify My Identity"
-msgstr ""
+msgstr "验证我的身份"
 
 #: lms/djangoapps/courseware/date_summary.py
 msgid "Missed Verification Deadline"
-msgstr ""
+msgstr "已错过验证截止时间"
 
 #: lms/djangoapps/courseware/date_summary.py
 msgid ""
 "Unfortunately you missed this course's deadline for a successful "
 "verification."
-msgstr ""
+msgstr "很抱歉你已经错过了课程成功验证的截止时间"
 
 #: lms/djangoapps/courseware/date_summary.py
 msgid ""
 "You must successfully complete verification before this date to qualify for "
 "a Verified Certificate."
-msgstr ""
+msgstr "你必须在这个时间之前完成这次验证，以具备"
 
 #: lms/djangoapps/courseware/masquerade.py
 msgid ""
 "There is no user with the username or email address {user_name} enrolled in "
 "this course."
-msgstr ""
+msgstr "没有用户名称为或邮箱名为{user_name} 注册这门课程。"
 
 #: lms/djangoapps/courseware/masquerade.py
 msgid ""
@@ -4626,53 +4627,53 @@ msgid ""
 "{platform_name} now offers financial assistance for learners who want to earn Verified Certificates but who may not be able to pay the Verified Certificate fee. Eligible learners may receive up to 90{percent_sign} off the Verified Certificate fee for a course.\n"
 "To apply for financial assistance, enroll in the audit track for a course that offers Verified Certificates, and then complete this application. Note that you must complete a separate application for each course you take.\n"
 " We plan to use this information to evaluate your application for financial assistance and to further develop our financial assistance program."
-msgstr ""
+msgstr "{platform_name}"
 
 #: lms/djangoapps/courseware/views.py
 msgid "Annual Household Income"
-msgstr ""
+msgstr "家庭年收入"
 
 #: lms/djangoapps/courseware/views.py
 msgid ""
 "Tell us about your current financial situation. Why do you need assistance?"
-msgstr ""
+msgstr "请告诉我们关于您目前的经济状况。为什么你需要帮助？"
 
 #: lms/djangoapps/courseware/views.py
 msgid ""
 "Tell us about your learning or professional goals. How will a Verified "
 "Certificate in this course help you achieve these goals?"
-msgstr ""
+msgstr "请告诉我们关于您的学习或专业目标。一份这门课的认证证书，将会如何帮助您达成这些目标？"
 
 #: lms/djangoapps/courseware/views.py
 msgid ""
 "Tell us about your plans for this course. What steps will you take to help "
 "you complete the course work and receive a certificate?"
-msgstr ""
+msgstr "告诉我们有关您计划这门课程。您会采取什么措施来完成课程学习，并获得证书？"
 
 #: lms/djangoapps/courseware/views.py
 msgid "Use between 250 and 500 words or so in your response."
-msgstr ""
+msgstr "您的回复应该不超过500字但不少于250字。"
 
 #: lms/djangoapps/courseware/views.py
 msgid ""
 "Select the course for which you want to earn a verified certificate. If the "
 "course does not appear in the list, make sure that you have enrolled in the "
 "audit track for the course."
-msgstr ""
+msgstr "选择您想要获得认证证书的课程。如果课程不在列表中，请确认您已经注册及追踪该课程。"
 
 #: lms/djangoapps/courseware/views.py
 msgid "income in US Dollars ($)"
-msgstr ""
+msgstr "收入/$美元"
 
 #: lms/djangoapps/courseware/views.py
 msgid "Specify your annual household income in US Dollars."
-msgstr ""
+msgstr "说明您以美金计算的家庭年收入。"
 
 #: lms/djangoapps/courseware/views.py
 msgid ""
 "I allow edX to use the information provided in this application (except for "
 "financial information) for edX marketing purposes."
-msgstr ""
+msgstr "我同意edX在市场过程中使用此申请所提供的信息（除财务信息）"
 
 #: lms/djangoapps/dashboard/git_import.py
 msgid ""
@@ -5056,7 +5057,7 @@ msgstr "无效的邮箱{email_address}。"
 msgid ""
 "An account with email {email} exists but the provided username {username} is"
 " different. Enrolling anyway with {email}."
-msgstr ""
+msgstr "邮箱{email}的账户已存在，但是用户名{username}并不一致。可以使用{email}注册。"
 
 #: lms/djangoapps/instructor/views/api.py
 #: lms/djangoapps/instructor/views/api.py
@@ -5072,24 +5073,24 @@ msgid ""
 "Error '{error}' while sending email to new user (user email={email}). "
 "Without the email student would not be able to login. Please contact support"
 " for further information."
-msgstr ""
+msgstr "在向用户（邮箱为{}）发送邮件时发生错误“{error}”。学生没有邮箱则不能登陆。更多详情请查看支持。"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "Could not find problem with this location."
-msgstr ""
+msgstr "不能根据这个地址定位到问题。"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid ""
 "The problem responses report is being created. To view the status of the "
 "report, see Pending Tasks below."
-msgstr ""
+msgstr "问题回复报告已生成。要查看报告状态，请看以下待定任务。"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid ""
 "A problem responses report generation task is already in progress. Check the"
 " 'Pending Tasks' table for the status of the task. When completed, the "
 "report will be available for download in the table below."
-msgstr ""
+msgstr "问题回复报告已经在生成中，检查“待定任务”表查看任务状态。当完成后，下表中的报告即可下载。"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "Invoice number '{num}' does not exist."
@@ -5097,7 +5098,7 @@ msgstr "发票号 '{num}' 不存在。"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "The sale associated with this invoice has already been invalidated."
-msgstr ""
+msgstr "与此相关的销售发票已经无效"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "Invoice number {0} has been invalidated."
@@ -5113,7 +5114,7 @@ msgstr "收据 {0}的注册编号已经被重新激活。"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "CourseID"
-msgstr ""
+msgstr "课程ID"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "Certificate Type"
@@ -5121,11 +5122,11 @@ msgstr "证书类型"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "Total Certificates Issued"
-msgstr ""
+msgstr "所有发布的证书"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "Date Report Run"
-msgstr ""
+msgstr "报告实行日期"
 
 #: lms/djangoapps/instructor/views/api.py
 #: lms/djangoapps/instructor_task/tasks_helper.py
@@ -5229,7 +5230,7 @@ msgstr "课程编号"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "% Discount"
-msgstr ""
+msgstr "%折扣"
 
 #: lms/djangoapps/instructor/views/api.py lms/djangoapps/shoppingcart/pdf.py
 #: lms/djangoapps/shoppingcart/reports.py
@@ -5246,11 +5247,11 @@ msgstr "是否活跃"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "Code Redeemed Count"
-msgstr ""
+msgstr "代码实践数量"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "Total Discounted Seats"
-msgstr ""
+msgstr "所有折扣"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "Total Discounted Amount"
@@ -5286,31 +5287,31 @@ msgstr "摘要报告正在创建，您可以在下方的主讲教师待处理的
 msgid ""
 "The survey report is being created. To view the status of the report, see "
 "Pending Instructor Tasks below."
-msgstr ""
+msgstr "调查报告正在创建。您可以在下方的主讲教师待处理的任务板块中查看报告的状态。"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid ""
 "The survey report is currently being created. To view the status of the "
 "report, see Pending Instructor Tasks below. You will be able to download the"
 " report when it is complete."
-msgstr ""
+msgstr "调查报告正在创建。您可以在下方的主讲教师待处理的任务板块中查看报告的状态，完成时即可下载。"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid ""
 "The proctored exam results report is being created. To view the status of "
 "the report, see Pending Instructor Tasks below."
-msgstr ""
+msgstr "监督考试报告正在创建。您可以在下方的主讲教师待处理的任务板块中查看报告的状态。"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid ""
 "The proctored exam results report is currently being created. To view the "
 "status of the report, see Pending Instructor Tasks below. You will be able "
 "to download the report when it is complete."
-msgstr ""
+msgstr "监督考试正在创建。您可以在下方的主讲教师待处理的任务板块中查看报告的状态，完成时即可下载。"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "Could not parse amount as a decimal"
-msgstr ""
+msgstr "不能解析为十进制"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "Unable to generate redeem codes because of course misconfiguration."
@@ -5336,15 +5337,15 @@ msgstr "本课程无入学测试部分。"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "all_students and unique_student_identifier are mutually exclusive."
-msgstr ""
+msgstr "all_students 和unique_student_identifier 是相互独立的。"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "all_students and delete_module are mutually exclusive."
-msgstr ""
+msgstr "all_students 和 delete_module 是相互独立的。"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "Requires instructor access."
-msgstr ""
+msgstr "需要主讲教师权限。"
 
 #: lms/djangoapps/instructor/views/api.py
 #: lms/djangoapps/instructor/views/api.py
@@ -5421,100 +5422,100 @@ msgstr "该课程所有学生的证书生成任务已经启动，您可以在“
 msgid ""
 "Please select one or more certificate statuses that require certificate "
 "regeneration."
-msgstr ""
+msgstr "请选择一个以上的需要证书的证书形式。"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "Please select certificate statuses from the list only."
-msgstr ""
+msgstr "请只从清单中选择证书形式。"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid ""
 "Certificate regeneration task has been started. You can view the status of "
 "the generation task in the \"Pending Tasks\" section."
-msgstr ""
+msgstr "修课证明重新产出任务已启动。您可以在“待处理任务”区域中查看证书生成的状态。"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "Student (username/email={user}) already in certificate exception list."
-msgstr ""
+msgstr "学生（用户名/邮箱为{user}）已经排除在证书之外。"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid ""
 "Certificate exception (user={user}) does not exist in certificate white "
 "list. Please refresh the page and try again."
-msgstr ""
+msgstr "证书例外（用户{user}）不在证书批准名单内。请重新载入页面或再试一次。"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid ""
 "Student username/email field is required and can not be empty. Kindly fill "
 "in username/email and then press \"Add to Exception List\" button."
-msgstr ""
+msgstr "学生用户名/邮箱字段不能为空。请在填写用户名/邮箱之后按“加入排除名单”按钮。"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid ""
 "The record is not in the correct format. Please add a valid username or "
 "email address."
-msgstr ""
+msgstr "这个记录不是正确的格式。请添加一个有效的用户名或者邮箱地址。"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid ""
 "{user} does not exist in the LMS. Please check your spelling and retry."
-msgstr ""
+msgstr "{user}在LMS中不存在。请检查后重试。"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid ""
 "{user} is not enrolled in this course. Please check your spelling and retry."
-msgstr ""
+msgstr "{user}没有注册这个课程。请检查后重试。"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "Invalid Json data, Please refresh the page and then try again."
-msgstr ""
+msgstr "无效的JSON数据，请刷新页面后重试。"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "Invalid data, user_id must be present for all certificate exceptions."
-msgstr ""
+msgstr "无效的数据，user_id 必须存在于所有证书之外。"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "Certificate generation started for white listed students."
-msgstr ""
+msgstr "被批准的学生的证书开始生成。"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "user \"{user}\" in row# {row}"
-msgstr ""
+msgstr "用户“{user}”在行#{row}"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "user \"{username}\" in row# {row}"
-msgstr ""
+msgstr "用户“{username}”在行#{row}"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid ""
 "Certificate of {user} has already been invalidated. Please check your "
 "spelling and retry."
-msgstr ""
+msgstr "{user}的证书已经作废。请检查后重试。"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid ""
 "Certificate for student {user} is already invalid, kindly verify that "
 "certificate was generated for this student and then proceed."
-msgstr ""
+msgstr "学生{user}的证书已经无效，请确认证书是要生成给这名学生，然后继续。"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid ""
 "Certificate Invalidation does not exist, Please refresh the page and try "
 "again."
-msgstr ""
+msgstr "证书无效不存在，请刷新后尝试。"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid ""
 "Student username/email field is required and can not be empty. Kindly fill "
 "in username/email and then press \"Invalidate Certificate\" button."
-msgstr ""
+msgstr "学生用户名/邮箱字段不能为空。请填写用户名/邮箱然后按“作废证书”按钮。"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid ""
 "The student {student} does not have certificate for the course {course}. "
 "Kindly verify student username/email and the selected course are correct and"
 " try again."
-msgstr ""
+msgstr "学生{student}这门课没有证书。请确认学生的用户名/邮箱并选择正确的课程，然后重试。"
 
 #: lms/djangoapps/instructor/views/coupons.py
 msgid "coupon id is None"
@@ -5839,23 +5840,23 @@ msgstr "选课日期"
 
 #: lms/djangoapps/instructor_task/tasks_helper.py
 msgid "Currently Enrolled"
-msgstr ""
+msgstr "当前注册"
 
 #: lms/djangoapps/instructor_task/tasks_helper.py
 msgid "Enrollment Source"
-msgstr ""
+msgstr "注册来源"
 
 #: lms/djangoapps/instructor_task/tasks_helper.py
 msgid "Manual (Un)Enrollment Reason"
-msgstr ""
+msgstr "（不）注册理由"
 
 #: lms/djangoapps/instructor_task/tasks_helper.py
 msgid "Enrollment Role"
-msgstr ""
+msgstr "注册角色"
 
 #: lms/djangoapps/instructor_task/tasks_helper.py
 msgid "List Price"
-msgstr ""
+msgstr "价格列表"
 
 #: lms/djangoapps/instructor_task/tasks_helper.py
 msgid "Payment Amount"
@@ -6051,7 +6052,7 @@ msgstr "默认页面"
 msgid ""
 "Enter the tab that is selected in the XBlock. If not set, the Course tab is "
 "selected."
-msgstr ""
+msgstr "输入XBlock中选择的标签。如果不设置，课程标签将被选中。"
 
 #: lms/djangoapps/lms_xblock/mixin.py
 msgid "LaTeX Source File Name"
@@ -6068,7 +6069,8 @@ msgid ""
 "no key for a group configuration or if the set of group IDs is empty then "
 "the block is considered visible to all. Note that this field is ignored if "
 "the block is visible_to_staff_only."
-msgstr ""
+msgstr "标记了在这个block中显示的分组的字典。键为分组配置的id，值为分组id的列表。如果没有分组配置或者分组id集合为空，那么block对所有可见。"
+"记住，如果block是仅老师可见，那么这个字段会被忽略。"
 
 #: lms/djangoapps/lms_xblock/mixin.py
 msgid ""
@@ -6109,11 +6111,11 @@ msgstr "该发票的客户参考代码。"
 msgid ""
 "The amount of the transaction.  Use positive amounts for payments and "
 "negative amounts for refunds."
-msgstr ""
+msgstr "业务数量。用正数表示付款，用负数表示退款。"
 
 #: lms/djangoapps/shoppingcart/models.py lms/djangoapps/shoppingcart/models.py
 msgid "Lower-case ISO currency codes"
-msgstr ""
+msgstr "小写ISO（国际标准组织）货币代号。"
 
 #: lms/djangoapps/shoppingcart/models.py
 msgid "Optional: provide additional information for this transaction"
@@ -6164,7 +6166,7 @@ msgstr "课程{course}的{mode_name} "
 msgid ""
 "You can unenroll in the course and receive a full refund for 14 days after "
 "the course start date. "
-msgstr ""
+msgstr "你可以取消注册课程，并在开课后14天收到全额退款费。"
 
 #: lms/djangoapps/shoppingcart/models.py
 msgid ""
@@ -6176,14 +6178,14 @@ msgstr "如果你还没有验证你的身份，请立即开始验证过程吧({v
 msgid ""
 "You can unenroll in the course and receive a full refund for 2 days after "
 "the course start date. "
-msgstr ""
+msgstr "你可以取消注册课程，并在开课后2天收到全额退款费。"
 
 #: lms/djangoapps/shoppingcart/models.py
 msgid ""
 "{refund_reminder_msg}To receive your refund, contact {billing_email}. Please"
 " include your order number in your email. Please do NOT include your credit "
 "card information."
-msgstr ""
+msgstr "{refund_reminder_msg}联系{billing_email}接收退款。请在邮件中加上你的订单号。不要加上的您的信用卡信息。"
 
 #: lms/djangoapps/shoppingcart/models.py
 msgid ""
@@ -6191,7 +6193,7 @@ msgid ""
 "{platform_name} mission.  This receipt was prepared to support charitable "
 "contributions for tax purposes.  We confirm that neither goods nor services "
 "were provided in exchange for this gift."
-msgstr ""
+msgstr "我们非常感谢你的慷慨捐助以及对我们{platform_name}的支持。"
 
 #: lms/djangoapps/shoppingcart/models.py
 msgid "Could not find a course with the ID '{course_id}'"
@@ -6207,7 +6209,7 @@ msgstr "为 {platform_name}捐款"
 
 #: lms/djangoapps/shoppingcart/pdf.py
 msgid "Page {page_number} of {page_count}"
-msgstr ""
+msgstr "第 {page_number}/{page_count} 页"
 
 #: lms/djangoapps/shoppingcart/pdf.py lms/djangoapps/shoppingcart/pdf.py
 msgid "Invoice"
@@ -6234,6 +6236,8 @@ msgid ""
 "List Price\n"
 "per item"
 msgstr ""
+"价格列表\n"
+"每一项"
 
 #: lms/djangoapps/shoppingcart/pdf.py
 msgid ""
@@ -6857,7 +6861,7 @@ msgstr "授权已被撤回。"
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py
 msgid "The authorization has already been captured."
-msgstr ""
+msgstr "授权已经找到"
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py
 msgid ""
