@@ -7114,7 +7114,7 @@ msgstr "未提供Email地址。"
 
 #: lms/djangoapps/support/views/index.py
 msgid "View and regenerate certificates."
-msgstr ""
+msgstr "查看并生成证书。"
 
 #: lms/djangoapps/support/views/index.py lms/templates/support/refund.html
 msgid "Manual Refund"
@@ -7130,11 +7130,11 @@ msgstr "选课"
 
 #: lms/djangoapps/support/views/index.py
 msgid "View and update learner enrollments."
-msgstr ""
+msgstr "查看以及更新学习人数。"
 
 #: lms/djangoapps/support/views/refund.py
 msgid "Email Address"
-msgstr "电子邮件地址"
+msgstr "电子邮箱"
 
 #: lms/djangoapps/support/views/refund.py
 msgid "Course ID"
@@ -7154,7 +7154,7 @@ msgstr "在课程{course_id}中没有为{user}找到订单。"
 
 #: lms/djangoapps/support/views/refund.py
 msgid "Unenrolled {user} from {course_id}"
-msgstr "放弃选修{course_id}的{user}"
+msgstr "取消{user}注册课程{course_id}"
 
 #: lms/djangoapps/support/views/refund.py
 msgid "Refunded {cost} for order id {order_id}"
@@ -7162,7 +7162,7 @@ msgstr "订单{order_id}已退款{cost}"
 
 #: lms/djangoapps/teams/models.py
 msgid "Optional language the team uses as ISO 639-1 code."
-msgstr ""
+msgstr "团队所使用的可选语言的代码为 ISO 639-1 。"
 
 #: lms/djangoapps/teams/plugins.py
 msgid "Teams"
@@ -7178,7 +7178,7 @@ msgstr "必须提供课程编号"
 
 #: lms/djangoapps/teams/views.py
 msgid "text_search and order_by cannot be provided together"
-msgstr ""
+msgstr "文本搜索和排序不能一起被提供"
 
 #: lms/djangoapps/teams/views.py
 msgid "The supplied topic id {topic_id} is not valid"
@@ -7186,7 +7186,7 @@ msgstr "提供的主题编号{topic_id}无效"
 
 #: lms/djangoapps/teams/views.py
 msgid "Error connecting to elasticsearch"
-msgstr ""
+msgstr "连接ElasticSearch出现错误"
 
 #. Translators: 'ordering' is a string describing a way
 #. of ordering a list. For example, {ordering} may be
@@ -7402,7 +7402,7 @@ msgstr "Reddit"
 
 #: lms/envs/common.py
 msgid "Subscribe to the {platform_name} subreddit"
-msgstr ""
+msgstr "订阅 {platform_name} 的SubReddit"
 
 #. Translators: This is the website name of https://vk.com.  Please
 #. translate this the way that VK advertises in your language.
@@ -8041,18 +8041,18 @@ msgstr "无效 usage_id: {usage_id}。"
 
 #: openedx/core/djangoapps/bookmarks/views.py
 msgid "Block with usage_id: {usage_id} not found."
-msgstr ""
+msgstr "没有找到usage_id为{usage_id}的块"
 
 #: openedx/core/djangoapps/bookmarks/views.py
 msgid ""
 "You can create up to {max_num_bookmarks_per_course} bookmarks. You must "
 "remove some bookmarks before you can add new ones."
-msgstr ""
+msgstr "您最多可以创建{max_num_bookmarks_per_course}个书签。您必须删除一些书签，然后才能添加新的。"
 
 #: openedx/core/djangoapps/bookmarks/views.py
 #: openedx/core/djangoapps/bookmarks/views.py
 msgid "Bookmark with usage_id: {usage_id} does not exist."
-msgstr ""
+msgstr "usage_id为{usage_id}的书签不存在"
 
 #: openedx/core/djangoapps/course_groups/cohorts.py
 msgid "You cannot create two cohorts with the same name"
@@ -8083,7 +8083,7 @@ msgstr ""
 
 #: openedx/core/djangoapps/credentials/models.py
 msgid "Enable issuance of credentials via Credential Service."
-msgstr ""
+msgstr "启用发布通过凭据服务的凭证。"
 
 #: openedx/core/djangoapps/credentials/models.py
 msgid "Enable Authoring of Credential in Studio"
@@ -8096,14 +8096,14 @@ msgstr ""
 #: openedx/core/djangoapps/credentials/models.py
 #: openedx/core/djangoapps/programs/models.py
 msgid "Cache Time To Live"
-msgstr ""
+msgstr "缓存生命周期"
 
 #: openedx/core/djangoapps/credentials/models.py
 #: openedx/core/djangoapps/programs/models.py
 msgid ""
 "Specified in seconds. Enable caching by setting this to a value greater than"
 " 0."
-msgstr ""
+msgstr "启用缓存的设置应大于0秒"
 
 #: openedx/core/djangoapps/credit/email_utils.py
 msgid "Course Credit Eligibility"
@@ -8180,7 +8180,7 @@ msgstr ""
 
 #: openedx/core/djangoapps/credit/models.py
 msgid "Thumbnail image url of the credit provider."
-msgstr ""
+msgstr "信贷提供商的缩略图网址。"
 
 #: openedx/core/djangoapps/credit/models.py
 msgid "Deadline for purchasing and requesting credit."
@@ -8196,19 +8196,19 @@ msgstr "文件必须大于 {image_min_size} 。"
 
 #: openedx/core/djangoapps/profile_images/images.py
 msgid "The file must be one of the following types: {valid_file_types}."
-msgstr ""
+msgstr "该文件必须是以下类型之一：{valid_file_types}。"
 
 #: openedx/core/djangoapps/profile_images/images.py
 msgid ""
 "The Content-Type header for this file does not match the file data. The file"
 " may be corrupted."
-msgstr ""
+msgstr "此文件的Content-Type头没有匹配的文件数据。该文件可能已损坏。"
 
 #: openedx/core/djangoapps/profile_images/images.py
 msgid ""
 "The file name extension for this file does not match the file data. The file"
 " may be corrupted."
-msgstr ""
+msgstr "该文件扩展名没有匹配的文件数据。该文件可能已损坏。"
 
 #: openedx/core/djangoapps/profile_images/images.py
 msgid "bytes"
@@ -8228,7 +8228,7 @@ msgstr "未向档案照片提交文件"
 
 #: openedx/core/djangoapps/programs/models.py
 msgid "API Version"
-msgstr ""
+msgstr "API版本"
 
 #: openedx/core/djangoapps/programs/models.py
 msgid "Path to authoring app's JS"
@@ -8242,7 +8242,7 @@ msgstr "启用工作室创作界面需要该参数。"
 
 #: openedx/core/djangoapps/programs/models.py
 msgid "Path to authoring app's CSS"
-msgstr ""
+msgstr "指向应用创作的CSS的路径"
 
 #: openedx/core/djangoapps/programs/models.py
 msgid "Enable Student Dashboard Displays"
@@ -8254,7 +8254,7 @@ msgstr "启用工作室创作界面"
 
 #: openedx/core/djangoapps/programs/models.py
 msgid "Enable Program Certificate Generation"
-msgstr ""
+msgstr "启用生成证书程序"
 
 #: openedx/core/djangoapps/self_paced/models.py
 msgid "Enable course home page improvements."
@@ -8266,11 +8266,11 @@ msgstr "'{field_name}'字段无法编辑."
 
 #: openedx/core/djangoapps/user_api/preferences/api.py
 msgid "Delete failed for user preference '{preference_key}'."
-msgstr "用户设置 '{preference_key}' 删除失败."
+msgstr "用户参数 '{preference_key}' 删除失败."
 
 #: openedx/core/djangoapps/user_api/preferences/api.py
 msgid "Preference '{preference_key}' cannot be set to an empty value."
-msgstr "首选项“{preference_key}”不能设置为空值。"
+msgstr "参数“{preference_key}”不能设置为空值。"
 
 #: openedx/core/djangoapps/user_api/preferences/api.py
 msgid "Invalid user preference key '{preference_key}'."
@@ -8443,7 +8443,7 @@ msgstr "该区域不能编辑"
 #: openedx/core/lib/gating/api.py
 #, python-format
 msgid "%(min_score)s is not a valid grade percentage"
-msgstr ""
+msgstr "%(min_score)s 不是一个有效的等级百分比"
 
 #: openedx/core/lib/gating/api.py
 msgid "Gating milestone for {usage_key}"
