@@ -533,7 +533,7 @@ msgstr "自定义颜色"
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Custom..."
-msgstr "自定义…"
+msgstr "自定义..."
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -1786,8 +1786,8 @@ msgstr "处理请求遇到问题，请重试。"
 #: common/static/coffee/src/discussion/views/discussion_thread_list_view.js
 #: common/static/coffee/src/discussion/views/discussion_thread_list_view.js
 #: common/static/coffee/src/discussion/views/discussion_topic_menu_view.js
-msgid "…"
-msgstr "…"
+msgid "..."
+msgstr "..."
 
 #: common/static/coffee/src/discussion/views/discussion_content_view.js
 msgid "there is currently %(numVotes)s vote"
@@ -3977,7 +3977,8 @@ msgstr "您必须填写出生年份才能分享完整资料。点击{account_set
 msgid ""
 "You must be over 13 to share a full profile. If you are over 13, make sure "
 "that you have specified a birth year on the {account_settings_page_link}"
-msgstr "13岁以上的用户才能分享完整资料。如果您超过13岁，請確認已在{account_settings_page_link}页面中填写了出生年份。"
+msgstr ""
+"13岁以上的用户才能分享完整资料。如果您超过13岁，請確認已在{account_settings_page_link}页面中填写了出生年份。"
 
 #: lms/static/js/student_profile/views/learner_profile_fields.js
 msgid "Profile Image"

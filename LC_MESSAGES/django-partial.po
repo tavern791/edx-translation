@@ -1804,7 +1804,10 @@ msgid ""
 "notify MathWorks immediately if you believe the key is exposed or "
 "compromised. To obtain a key for your course, or to report an issue, please "
 "contact moocsupport@mathworks.com"
-msgstr "输入MATLAB托管服务提供MathWorks公司的API密钥。这个密钥被授予通过本课程的指定时间独家试用。请不要与其他课程共享的 API 密钥。如果你认为密钥已曝露或破坏，立即告知MathWorks。若要对你的课程申请一个密钥，或报告问题，请联系 moocsupport@mathworks.com"
+msgstr ""
+"输入MATLAB托管服务提供MathWorks公司的API密钥。这个密钥被授予通过本课程的指定时间独家试用。请不要与其他课程共享的 API "
+"密钥。如果你认为密钥已曝露或破坏，立即告知MathWorks。若要对你的课程申请一个密钥，或报告问题，请联系 "
+"moocsupport@mathworks.com"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Check"
@@ -1816,7 +1819,7 @@ msgstr "最后一次检查答案"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Checking..."
-msgstr "正在检查……"
+msgstr "正在检查..."
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Warning: The problem has been reset to its initial state!"
@@ -2595,7 +2598,8 @@ msgid ""
 "provide a list of 2 topics, enter the configuration in this format: "
 "{example_format}. In \"id\" values, the only supported special characters "
 "are underscore, hyphen, and period."
-msgstr "在花括号内为团队指定最大的团队规模和主题。请确保将所有主题值的集合都在一组方括号中，在每个主题后用逗号分隔，并在方括号结尾加上一个逗号。列如，要指定团队最多应该有5个参与者并且有2个主题的列表，输入该格式的配置：{example_format}。在\"id\"值，唯一支持的特殊字符有下划线，字符，和句号。"
+msgstr ""
+"在花括号内为团队指定最大的团队规模和主题。请确保将所有主题值的集合都在一组方括号中，在每个主题后用逗号分隔，并在方括号结尾加上一个逗号。列如，要指定团队最多应该有5个参与者并且有2个主题的列表，输入该格式的配置：{example_format}。在\"id\"值，唯一支持的特殊字符有下划线，字符，和句号。"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Enable Proctored Exams"
@@ -3185,7 +3189,9 @@ msgid ""
 "provide a Python script to identify and randomize values in most of the "
 "problems in your course. Valid values are \"always\", \"onreset\", "
 "\"never\", and \"per_student\"."
-msgstr "指定题目中变量值打乱频率的默认值。一般设置为\"never\"，除非你打算用一个Python脚本来随机判别你的课程中的大部分问题，有效值为 \"always\"，\"onreset\"，\"never\"，和\"per_student\"。"
+msgstr ""
+"指定题目中变量值打乱频率的默认值。一般设置为\"never\"，除非你打算用一个Python脚本来随机判别你的课程中的大部分问题，有效值为 "
+"\"always\"，\"onreset\"，\"never\"，和\"per_student\"。"
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid "Days Early for Beta Users"
@@ -3277,7 +3283,9 @@ msgid ""
 "Enter the video ID from the Video Uploads page and one or more transcript "
 "files in the following format: {format}. For example, an entry for a video "
 "with two transcripts looks like this: {example}"
-msgstr "确定一个时长为5-10秒的视频用作在课程视频前播放。从视频上传页面输入视频的id以及一个或多个以下格式的副本文件： {format}。例如一个视频包含两个副本的视频格式： {example}"
+msgstr ""
+"确定一个时长为5-10秒的视频用作在课程视频前播放。从视频上传页面输入视频的id以及一个或多个以下格式的副本文件： "
+"{format}。例如一个视频包含两个副本的视频格式： {example}"
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid "Show Reset Button for Problems"
@@ -4124,7 +4132,8 @@ msgid ""
 "An {cert_type} certificate signifies that a learner has agreed to abide by "
 "the honor code established by {platform_name} and has completed all of the "
 "required tasks for this course under its guidelines."
-msgstr "一个{cert_type}证书表示学习者同意遵守{platform_name}建立的荣誉准则，并且在课程的指导下完成了课程需要的所有学习任务。"
+msgstr ""
+"一个{cert_type}证书表示学习者同意遵守{platform_name}建立的荣誉准则，并且在课程的指导下完成了课程需要的所有学习任务。"
 
 #. Translators:  This text describes the 'ID Verified' course certificate
 #. type, which is a higher level of
@@ -4137,8 +4146,8 @@ msgid ""
 "required tasks for this course under its guidelines. A {cert_type} "
 "certificate also indicates that the identity of the learner has been checked"
 " and is valid."
-msgstr "一个{cert_type}证书表示学习者同意遵守{platform_name}建立的荣誉准则，并且在课程的指导下完成了课程需要的所有学习任务。"
-"一个{cert_type}证书同时也表明学习者的身份已经被验证并且有效。"
+msgstr ""
+"一个{cert_type}证书表示学习者同意遵守{platform_name}建立的荣誉准则，并且在课程的指导下完成了课程需要的所有学习任务。一个{cert_type}证书同时也表明学习者的身份已经被验证并且有效。"
 
 #. Translators:  This text describes the 'XSeries' course certificate type.
 #. An XSeries is a collection of
@@ -4160,7 +4169,9 @@ msgstr "{year} {month} {day}"
 msgid ""
 "This is a valid {platform_name} certificate for {user_name}, who "
 "participated in {partner_short_name} {course_number}"
-msgstr "这是属于{user_name}的有效的{platform_name}证书，他参加了{partner_short_name} {course_number}"
+msgstr ""
+"这是属于{user_name}的有效的{platform_name}证书，他参加了{partner_short_name} "
+"{course_number}"
 
 #. Translators:  This text is bound to the HTML 'title' element of the page
 #. and appears in the browser title bar
@@ -6069,8 +6080,8 @@ msgid ""
 "no key for a group configuration or if the set of group IDs is empty then "
 "the block is considered visible to all. Note that this field is ignored if "
 "the block is visible_to_staff_only."
-msgstr "标记了在这个block中显示的分组的字典。键为分组配置的id，值为分组id的列表。如果没有分组配置或者分组id集合为空，那么block对所有可见。"
-"记住，如果block是仅老师可见，那么这个字段会被忽略。"
+msgstr ""
+"标记了在这个block中显示的分组的字典。键为分组配置的id，值为分组id的列表。如果没有分组配置或者分组id集合为空，那么block对所有可见。记住，如果block是仅老师可见，那么这个字段会被忽略。"
 
 #: lms/djangoapps/lms_xblock/mixin.py
 msgid ""
@@ -7695,7 +7706,7 @@ msgstr "将要被删除的文章"
 
 #: lms/templates/wiki/delete.html
 msgid "...and more!"
-msgstr "……还有更多！"
+msgstr "......还有更多！"
 
 #: lms/templates/wiki/delete.html
 msgid "You are deleting an article. Please confirm."
@@ -7762,7 +7773,7 @@ msgstr "修改"
 
 #: lms/templates/wiki/history.html lms/templates/wiki/history.html
 msgid "Merge selected with current..."
-msgstr "合并选择项和当前项……"
+msgstr "合并选择项和当前项......"
 
 #: lms/templates/wiki/history.html
 msgid "Switch to selected version"

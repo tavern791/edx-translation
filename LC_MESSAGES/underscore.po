@@ -386,7 +386,7 @@ msgstr "新增文章"
 
 #: common/static/common/templates/discussion/pagination.underscore
 #: common/static/common/templates/discussion/pagination.underscore
-msgid "…"
+msgid "..."
 msgstr "..."
 
 #: common/static/common/templates/discussion/post-user-display.underscore
@@ -877,7 +877,7 @@ msgid "View"
 msgstr "视图"
 
 #: lms/templates/bookmarks/bookmarks-list.underscore
-msgid "	"
+msgid "\t"
 msgstr ""
 
 #: lms/templates/bookmarks/bookmarks-list.underscore
@@ -1100,7 +1100,7 @@ msgstr "笔记"
 
 #: lms/templates/edxnotes/note-item.underscore
 msgid "You commented..."
-msgstr "你评论的…"
+msgstr "你评论的..."
 
 #: lms/templates/edxnotes/note-item.underscore
 msgid "Noted in:"

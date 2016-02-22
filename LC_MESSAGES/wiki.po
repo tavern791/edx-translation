@@ -37,7 +37,7 @@ msgstr "创建"
 
 #: wiki/forms.py
 msgid "Only localhost... muahahaha"
-msgstr "只有localhost……哇哈哈哈"
+msgstr "只有localhost......哇哈哈哈"
 
 #: wiki/forms.py wiki/forms.py wiki/forms.py
 msgid "Title"
@@ -56,7 +56,7 @@ msgid ""
 "This is just the initial contents of your article. After creating it, you "
 "can use more complex features like adding plugins, meta data, related "
 "articles etc..."
-msgstr "这只是您文章的最初内容。在创建了文章以后，您可以使用更复杂的特性，比如增加插件、元数据、相关文章，等等……"
+msgstr "这只是您文章的最初内容。在创建了文章以后，您可以使用更复杂的特性，比如增加插件、元数据、相关文章，等等......"
 
 #: wiki/forms.py wiki/forms.py
 msgid "Contents"
@@ -196,7 +196,7 @@ msgstr "文章已解锁，可以编辑"
 
 #: wiki/forms.py
 msgid "Filter..."
-msgstr "过滤…"
+msgstr "过滤..."
 
 #: wiki/core/plugins/base.py
 msgid "Settings for plugin"
@@ -393,7 +393,7 @@ msgstr "该文档包含内容的简要说明"
 
 #: wiki/plugins/attachments/forms.py
 msgid "Yes I am sure..."
-msgstr "是的我很确定…"
+msgstr "是的我很确定..."
 
 #: wiki/plugins/attachments/markdown_extensions.py
 msgid "Click to download file"
@@ -610,7 +610,7 @@ msgstr "创建的新文档：%s"
 
 #: wiki/views/accounts.py
 msgid "You are now sign up... and now you can sign in!"
-msgstr "您正在注册……现在你可以登录了！"
+msgstr "您正在注册......现在你可以登录了！"
 
 #: wiki/views/accounts.py
 msgid "You are no longer logged in. Bye bye!"

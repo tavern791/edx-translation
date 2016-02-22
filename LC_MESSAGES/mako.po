@@ -4078,7 +4078,7 @@ msgstr "(2) 一旦注册，复制网址并且贴在您的浏览器上。"
 msgid ""
 "(3) On the enrollment confirmation page, Click the 'Activate Enrollment "
 "Code' button. This will show the enrollment confirmation."
-msgstr "(3) 在确认注册页面上，点选“启用注册码"按钮。这将会显示注册确认。"
+msgstr "(3) 在确认注册页面上，点选“启用注册码”按钮。这将会显示注册确认。"
 
 #: lms/templates/emails/business_order_confirmation_email.txt
 msgid ""
@@ -5622,7 +5622,7 @@ msgstr "选择一门课程团队角色："
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Getting available lists..."
-msgstr "正在获取可用列表……"
+msgstr "正在获取可用列表......"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid ""
