@@ -83,7 +83,7 @@ msgstr "开放式评估保存错误"
 
 #: cms/static/js/base.js
 msgid "This link will open in a new browser window/tab"
-msgstr ""
+msgstr "这个链接会在新的窗口/标签页中打开"
 
 #: cms/static/js/base.js
 msgid "This link will open in a modal window"
@@ -589,7 +589,7 @@ msgstr "您还没有创建任何组配置。"
 
 #: cms/static/js/views/import.js
 msgid "Your import is in progress; navigating away will abort it."
-msgstr ""
+msgstr "正在导入中；跳转操作将会终止导入。"
 
 #: cms/static/js/views/import.js
 msgid "Error importing course"
@@ -605,7 +605,7 @@ msgstr "版权所有"
 
 #: cms/static/js/views/license.js
 msgid "You reserve all rights for your work"
-msgstr ""
+msgstr "你对你的成果保留所有权益。"
 
 #: cms/static/js/views/license.js
 msgid "Creative Commons"
@@ -613,7 +613,7 @@ msgstr ""
 
 #: cms/static/js/views/license.js
 msgid "You waive some rights for your work, such that others can use it too"
-msgstr ""
+msgstr "你放弃你的成果中其他权益可能会用到的部分权益。"
 
 #: cms/static/js/views/license.js
 msgid "Version"
@@ -621,14 +621,14 @@ msgstr "版本"
 
 #: cms/static/js/views/license.js
 msgid "Attribution"
-msgstr ""
+msgstr "归属"
 
 #: cms/static/js/views/license.js
 msgid ""
 "Allow others to copy, distribute, display and perform your copyrighted work "
 "but only if they give credit the way you request. Currently, this option is "
 "required."
-msgstr ""
+msgstr "仅当其他人有你的授权才允许他们复制，分发，展示和演示有你版权的成果。目前，这个选项是必需的。"
 
 #: cms/static/js/views/license.js
 msgid "Noncommercial"
@@ -638,18 +638,18 @@ msgstr "非商业性"
 msgid ""
 "Allow others to copy, distribute, display and perform your work - and "
 "derivative works based upon it - but for noncommercial purposes only."
-msgstr ""
+msgstr "允许其他人复制，分发，展示和演示你的成果，以及基于这些的衍生产品。但是禁止商用。"
 
 #: cms/static/js/views/license.js
 msgid "No Derivatives"
-msgstr ""
+msgstr "不允许衍生产品"
 
 #: cms/static/js/views/license.js
 msgid ""
 "Allow others to copy, distribute, display and perform only verbatim copies "
 "of your work, not derivative works based upon it. This option is "
 "incompatible with \"Share Alike\"."
-msgstr ""
+msgstr "仅允许其他人复制，分发，展示和演示当前的成果，而不允许衍生产品。这个选项与“相同方式共享”不能同时成立。"
 
 #: cms/static/js/views/license.js
 msgid "Share Alike"
@@ -660,7 +660,7 @@ msgid ""
 "Allow others to distribute derivative works only under a license identical "
 "to the license that governs your work. This option is incompatible with \"No"
 " Derivatives\"."
-msgstr ""
+msgstr "仅在带有管理成果许可的情况下允许其他人分发衍生产品。这个选项与“不允许衍生产品”不能同时成立。"
 
 #. Translators: "item_display_name" is the name of the item to be deleted.
 #: cms/static/js/views/list_item.js
@@ -876,6 +876,8 @@ msgid ""
 "Showing %(current_item_range)s out of %(total_items_count)s, filtered by "
 "%(asset_type)s, sorted by %(sort_name)s ascending"
 msgstr ""
+"显示 %(current_item_range)s 总共 %(total_items_count)s，过滤 %(asset_type)s，按照 "
+"%(sort_name)s 升序排序。"
 
 #. Translators: sample result:
 #. "Showing 0-9 out of 25 total, filtered by Images, sorted by Date Added
@@ -885,6 +887,8 @@ msgid ""
 "Showing %(current_item_range)s out of %(total_items_count)s, filtered by "
 "%(asset_type)s, sorted by %(sort_name)s descending"
 msgstr ""
+"显示 %(current_item_range)s 总共 %(total_items_count)s，过滤 %(asset_type)s，按照 "
+"%(sort_name)s 降序排序。"
 
 #. Translators: sample result:
 #. "Showing 0-9 out of 25 total, sorted by Date Added ascending"
@@ -893,6 +897,7 @@ msgid ""
 "Showing %(current_item_range)s out of %(total_items_count)s, sorted by "
 "%(sort_name)s ascending"
 msgstr ""
+"显示 %(current_item_range)s 总共 %(total_items_count)s，按照 %(sort_name)s 升序排序。"
 
 #. Translators: sample result:
 #. "Showing 0-9 out of 25 total, sorted by Date Added descending"
@@ -901,12 +906,13 @@ msgid ""
 "Showing %(current_item_range)s out of %(total_items_count)s, sorted by "
 "%(sort_name)s descending"
 msgstr ""
+"显示 %(current_item_range)s 总共 %(total_items_count)s，按照 %(sort_name)s 降序排序。"
 
 #. Translators: turns into "25 total" to be used in other sentences, e.g.
 #. "Showing 0-9 out of 25 total".
 #: cms/static/js/views/paging_header.js
 msgid "%(total_items)s total"
-msgstr ""
+msgstr "总共 %(total_items)s"
 
 #. Translators: This is listed as the duration for a video
 #. that has not yet reached the point in its processing by
@@ -994,7 +1000,7 @@ msgstr "将永久删除该%(xblock_type)s，无法撤销。"
 msgid ""
 "Any content that has listed this content as a prerequisite will also have "
 "access limitations removed."
-msgstr ""
+msgstr "任何以该内容为前提条件的内容同时有访问限制删除。"
 
 #: cms/static/js/views/utils/xblock_utils.js
 msgid "Delete this %(xblock_type)s (and prerequisite)?"

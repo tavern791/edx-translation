@@ -5262,7 +5262,7 @@ msgstr "代码实践数量"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "Total Discounted Seats"
-msgstr "所有折扣"
+msgstr "所有折扣名额"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "Total Discounted Amount"

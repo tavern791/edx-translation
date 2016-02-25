@@ -170,7 +170,7 @@ msgstr "务必含设定证书的名称"
 
 #: cms/djangoapps/contentstore/views/certificates.py
 msgid "Certificate dict {0} missing value key '{1}'"
-msgstr ""
+msgstr "证书字典 {0} 键 {1} 缺失对应值"
 
 #: cms/djangoapps/contentstore/views/certificates.py
 #: cms/djangoapps/contentstore/views/certificates.py
@@ -441,7 +441,7 @@ msgstr "挂起"
 #. listing for videos uploaded through Studio
 #: cms/djangoapps/contentstore/views/videos.py
 msgid "{course}_video_urls"
-msgstr ""
+msgstr "{course}视频链接"
 
 #: cms/djangoapps/course_creators/models.py
 msgid "unrequested"
@@ -487,4 +487,4 @@ msgstr "学习成果"
 
 #: cms/lib/xblock/tagging.py
 msgid "Dictionary with the available tags"
-msgstr ""
+msgstr "带可用标签的字典"

@@ -284,26 +284,26 @@ msgstr "使用证书"
 msgid ""
 "Specify a course title to use on the certificate if the course's official "
 "title is too long to be displayed well."
-msgstr ""
+msgstr "如果课程的正式名称太长，你可以指定一个课程标题用来显示在证书上。"
 
 #: cms/templates/certificates.html
 msgid ""
 "For verified certificates, specify between one and four signatories and "
 "upload the associated images."
-msgstr ""
+msgstr "对于验证的证书，指定1到4个签署人，并分别上传对应的图片。"
 
 #: cms/templates/certificates.html
 msgid ""
 "To edit or delete a certificate before it is activated, hover over the top "
 "right corner of the form and select {em_start}Edit{em_end} or the delete "
 "icon."
-msgstr ""
+msgstr "要编辑或删除未被激活的证书，将鼠标移到表的右上角，然后选择{em_start}修改{em_end}或删除图片。"
 
 #: cms/templates/certificates.html
 msgid ""
 "To view a sample certificate, choose a course mode and select "
 "{em_start}Preview Certificate{em_end}."
-msgstr ""
+msgstr "要查看样品证书，选择课程模式并选择{em_start}预览证书{em_end}。"
 
 #: cms/templates/certificates.html
 msgid "Issuing Certificates to Learners"
@@ -315,13 +315,14 @@ msgid ""
 "selects {em_start}Activate{em_end}. Course team members without the Admin "
 "role cannot edit or delete an activated certificate."
 msgstr ""
+"拥有管理者权限的团队成员可以选择{em_start}启动{em_end}来开始颁发证书。没有管理员权限的团队成员不能编辑或删除一个激活的证书。"
 
 #: cms/templates/certificates.html
 msgid ""
 "{em_start}Do not{em_end} delete certificates after a course has started; "
 "learners who have already earned certificates will no longer be able to "
 "access them."
-msgstr ""
+msgstr "{em_start}不要{em_end}删除一个已经开始的课程的证书，否则已经获得证书的证书将不能访问它们。"
 
 #: cms/templates/certificates.html
 msgid "Learn more about certificates"
@@ -419,7 +420,7 @@ msgstr "添加组件"
 msgid ""
 "Select a component type under {strong_start}Add New Component{strong_end}. "
 "Then select a template."
-msgstr ""
+msgstr "在{strong_start}添加新组件{strong_end}下，选择一个组件类型，之后选择一个模板。"
 
 #: cms/templates/container.html
 msgid ""
@@ -435,7 +436,7 @@ msgstr "编辑组件"
 msgid ""
 "Click the {strong_start}Edit{strong_end} icon in a component to edit its "
 "content."
-msgstr ""
+msgstr "点击组件中{strong_start}编辑{strong_end}图标来编辑它"
 
 #: cms/templates/container.html
 msgid "Reorganizing components"
@@ -662,7 +663,7 @@ msgstr "警告"
 
 #: cms/templates/course_outline.html
 msgid "This course uses features that are no longer supported."
-msgstr ""
+msgstr "本课程使用了一些不在支持的功能。"
 
 #: cms/templates/course_outline.html
 msgid "You must delete or replace the following components."
@@ -683,6 +684,7 @@ msgid ""
 "the {link_start}Advanced Settings page{link_end}, locate the \"Advanced "
 "Module List\" setting, and then delete the following modules from the list."
 msgstr ""
+"为了避免发生错误，{platform_name}强烈建议您从高级设置中删除不支持的功能。你可以进入{link_start}高级设置{link_end}，找到“高级模块列表”，从列表中删除这些功能。"
 
 #: cms/templates/course_outline.html
 msgid "Unsupported Advance Modules"
@@ -1682,7 +1684,7 @@ msgstr "新建知识库"
 
 #: cms/templates/index.html
 msgid "New Program"
-msgstr ""
+msgstr "新计划"
 
 #: cms/templates/index.html cms/templates/index.html
 msgid "Please correct the highlighted fields below."
@@ -1708,7 +1710,7 @@ msgstr "资助本课程的机构名称。"
 
 #: cms/templates/index.html
 msgid "Note: The organization name is part of the course URL"
-msgstr ""
+msgstr "注意：机构代码是课程链接的一部分"
 
 #: cms/templates/index.html
 msgid ""
@@ -1729,7 +1731,7 @@ msgstr "注意：这是课程URL的一部分，请勿使用空格或特殊字符
 
 #: cms/templates/index.html
 msgid "The term in which your course will run."
-msgstr " 您课程开设的学期。"
+msgstr "您课程开设的学期。"
 
 #: cms/templates/index.html cms/templates/index.html
 msgid "Create"
@@ -1824,7 +1826,7 @@ msgstr ""
 #. the process will follow this text.
 #: cms/templates/index.html
 msgid "This re-run processing status:"
-msgstr ""
+msgstr "重新运行处理状态："
 
 #: cms/templates/index.html
 msgid "Configuration Error"
@@ -1843,7 +1845,7 @@ msgstr "知识库"
 
 #: cms/templates/index.html cms/templates/widgets/header.html
 msgid "Programs"
-msgstr ""
+msgstr "计划"
 
 #: cms/templates/index.html
 msgid "Re-run Course"
@@ -1964,7 +1966,7 @@ msgstr "您尚未创建任何日程。"
 
 #: cms/templates/index.html
 msgid "Programs are groups of courses related to a common subject."
-msgstr ""
+msgstr "计划方案与同一个科目相关的课程下的班级"
 
 #: cms/templates/index.html
 msgid "Create Your First Program"
@@ -2149,7 +2151,7 @@ msgstr "课程团队角色"
 msgid ""
 "Course team members with the Staff role are course co-authors. They have "
 "full writing and editing privileges on all course content."
-msgstr ""
+msgstr "带教师身份的课程团队成员作为课程联合作者，他们有完全的权限对课程的所有内容进行编写和编辑。"
 
 #: cms/templates/manage_users.html
 msgid ""
@@ -2161,7 +2163,7 @@ msgstr "管理员是课程团队成员中可以添加和移除其它课程团队
 msgid ""
 "All course team members can access content in Studio, the LMS, and Insights,"
 " but are not automatically enrolled in the course."
-msgstr ""
+msgstr "所有课程团队的成员都能访问在Studio，LMS，和Insights中的内容，但是不会自动在课程中注册。"
 
 #: cms/templates/manage_users.html
 msgid "Transferring Ownership"
@@ -2174,6 +2176,7 @@ msgid ""
 " make another user the Admin, then ask that user to remove you from the "
 "Course Team list."
 msgstr ""
+"每一门课程都有一个管理员。如果您是管理员并希望转交你的课程所有者身份，您可以点击<strong>添加管理员权限</strong>将其他人添加为管理员，然后让他将您从课程团队中移除。"
 
 #: cms/templates/manage_users_lib.html
 msgid "Library User Access"
@@ -2217,20 +2220,20 @@ msgstr "有三种知识库用户访问角色：用户、教员和管理员。"
 msgid ""
 "Library Users can view library content and can reference or use library "
 "components in their courses, but they cannot edit the contents of a library."
-msgstr ""
+msgstr "在课程中，知识库使用者可以查看库中内容或者可以引用或使用题库组件，但是不能编辑题的内容。"
 
 #: cms/templates/manage_users_lib.html
 msgid ""
 "Library Staff are content co-authors. They have full editing privileges on "
 "the contents of a library."
-msgstr ""
+msgstr "知识库教师是内容的共同作者。他们拥有完全的权限编辑知识库内容。"
 
 #: cms/templates/manage_users_lib.html
 msgid ""
 "Library Admins have full editing privileges and can also add and remove "
 "other team members. There must be at least one user with the Admin role in a"
 " library."
-msgstr ""
+msgstr "知识库管理员有所有的编辑权限，同时也可以添加和删除他们团队成员。在一个知识库中，必须存在至少一个知识库管理员。"
 
 #: cms/templates/program_authoring.html cms/templates/widgets/header.html
 msgid "Program Administration"
@@ -2389,7 +2392,7 @@ msgstr "课程学分要求"
 
 #: cms/templates/settings.html
 msgid "Steps required to earn course credit"
-msgstr ""
+msgstr "获得学分的要求"
 
 #: cms/templates/settings.html cms/templates/settings.html
 msgid "Minimum Grade"
@@ -2397,11 +2400,11 @@ msgstr "最低等级"
 
 #: cms/templates/settings.html
 msgid "Successful Proctored Exam"
-msgstr ""
+msgstr "成功监考考试"
 
 #: cms/templates/settings.html
 msgid "Proctored Exam {number}"
-msgstr ""
+msgstr "监考考试{number}"
 
 #: cms/templates/settings.html
 msgid "ID Verification"
@@ -2462,7 +2465,7 @@ msgstr "学生可以选课的最后一天。"
 
 #: cms/templates/settings.html
 msgid "Contact your edX Partner Manager to update these settings."
-msgstr ""
+msgstr "联系您的edX经理帮助您升级这些设置。"
 
 #: cms/templates/settings.html
 msgid "Enrollment End Time"
@@ -2479,8 +2482,7 @@ msgid ""
 "To provide the course start and registration dates as shown on your course "
 "summary page, follow the instructions provided by your Program Manager."
 msgstr ""
-"这些日期会影响<strong>您的课程在何时对外可见</strong>，但是它们<strong>并不是在您的课程概要页面中显示的日期</strong>。要在课程概要页面提供课程开始日期和课程注册日期，请遵循您的项目经理提供的指导"
-" 。"
+"这些日期会影响<strong>您的课程在何时对外可见</strong>，但是它们<strong>并不是在您的课程概要页面中显示的日期</strong>。要在课程概要页面提供课程开始日期和课程注册日期，请遵循您的项目经理提供的指导。"
 
 #: cms/templates/settings.html
 msgid "Course Details"
@@ -2498,7 +2500,7 @@ msgstr "课程语言"
 msgid ""
 "Identify the course language here. This is used to assist users find courses"
 " that are taught in a specific language."
-msgstr ""
+msgstr "设定课程的主要语言。这可以帮助用户用特定语言搜索到当前课程。"
 
 #: cms/templates/settings.html
 msgid "Introducing Your Course"
@@ -2645,21 +2647,21 @@ msgstr "课程开始"
 
 #: cms/templates/settings.html
 msgid "Set the pacing for this course"
-msgstr ""
+msgstr "设置课程的开始时间"
 
 #: cms/templates/settings.html
 msgid ""
 "Instructor-paced courses progress at the pace that the course author sets. "
 "You can configure release dates for course content and due dates for "
 "assignments."
-msgstr ""
+msgstr "教师教学进度可以由课程作者设置。你可以为该课程内容设置发布时间及停止观看时间。"
 
 #: cms/templates/settings.html
 msgid ""
 "Self-paced courses do not have release dates for course content or due dates"
 " for assignments. Learners can complete course material at any time before "
 "the course end date."
-msgstr ""
+msgstr "自学课程没有课程发布时间和截止时间，学生可以在课程结束前自由完成。"
 
 #: cms/templates/settings.html
 msgid "Course Content License"
@@ -2673,7 +2675,7 @@ msgstr "课程内容许可"
 #. following string:
 #: cms/templates/settings.html
 msgid "Select the default license for course content"
-msgstr ""
+msgstr "为课程内容选择默认证书"
 
 #: cms/templates/settings.html
 msgid "How are these settings used?"
@@ -2840,7 +2842,7 @@ msgstr "本块包含多个组件。"
 
 #: cms/templates/temp-course-landing.html
 msgid "Circuits and Electronics"
-msgstr ""
+msgstr "电路与电子"
 
 #: cms/templates/temp-course-landing.html
 msgid "Massachusetts Institute of Technology"
@@ -2937,7 +2939,7 @@ msgstr "视频文件最大"
 msgid ""
 "The maximum size for each video file that you upload is 5 GB. The upload "
 "process fails for larger files."
-msgstr ""
+msgstr "上传视频的大小最大限制为5Gb。您上传的视频过大。"
 
 #: cms/templates/videos_index.html
 msgid "Monitoring files as they upload"
@@ -2962,6 +2964,7 @@ msgid ""
 "status is {em_start}Ready{em_end}. Allow 24 hours for file processing at the"
 " external video hosting sites to complete."
 msgstr ""
+"当一个档案上传成功后，会自动开始处理。{em_start}当在处理中时{em_end}，文件会被列在历史上传列表中。当视频有了唯一的ID号并已经处于{em_start}准备{em_end}状态，你可以添加它到企业视频中去。支持外部文件在24小时之内上传完成。"
 
 #: cms/templates/videos_index.html
 msgid ""
@@ -2983,6 +2986,7 @@ msgid ""
 "its status is {em_start}Ready{em_end}, although processing may not be "
 "complete for all encodings and all video hosting sites."
 msgstr ""
+"你可以添加处于{em_start}准备{em_end}状态的视频文件到你的课程组件中。复制视频唯一的视频id。在其他浏览器窗口中，课程大纲页面上，你可以创建一个或者选择一个视频组件来播放视频。粘贴视频id到高级{em_start}视频ID{em_end}栏中编辑视频组件"
 
 #: cms/templates/visibility_editor.html
 msgid "No content groups exist"
@@ -3043,7 +3047,7 @@ msgid ""
 "Learners who require verification must pass the selected checkpoint to see "
 "the content in this component. Learners who do not require verification see "
 "this content by default."
-msgstr ""
+msgstr "需要认证的学生必须通过选择的检查点才能看见这个组件中的内容。不需要验证的学生能看到默认内容。"
 
 #: cms/templates/emails/activation_email.txt
 msgid ""
@@ -3213,7 +3217,7 @@ msgstr "文本输入"
 #: cms/templates/widgets/problem-edit.html
 #: cms/templates/widgets/problem-edit.html
 msgid "Insert a text response"
-msgstr ""
+msgstr "插入一个文本回复"
 
 #: cms/templates/widgets/problem-edit.html
 #: cms/templates/widgets/problem-edit.html
@@ -3223,7 +3227,7 @@ msgstr "数值输入"
 #: cms/templates/widgets/problem-edit.html
 #: cms/templates/widgets/problem-edit.html
 msgid "Insert a numerical response"
-msgstr ""
+msgstr "插入一个数值回复"
 
 #: cms/templates/widgets/problem-edit.html
 #: cms/templates/widgets/problem-edit.html
@@ -3233,7 +3237,7 @@ msgstr "下拉列表"
 #: cms/templates/widgets/problem-edit.html
 #: cms/templates/widgets/problem-edit.html
 msgid "Insert a dropdown response"
-msgstr ""
+msgstr "插入一个下拉列表回复"
 
 #: cms/templates/widgets/problem-edit.html
 #: cms/templates/widgets/problem-edit.html
@@ -3259,11 +3263,11 @@ msgstr "标签"
 
 #: cms/templates/widgets/sock.html
 msgid "Access the Open edX Portal"
-msgstr ""
+msgstr "访问Open edX入口"
 
 #: cms/templates/widgets/sock.html
 msgid "Open edX Portal"
-msgstr ""
+msgstr "打开edX入口"
 
 #: cms/templates/widgets/tabs-aggregator.html
 msgid "name"
